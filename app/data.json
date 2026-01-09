@@ -1,0 +1,6453 @@
+{
+  "jogador": "Carlos Sbrissa",
+  "makeupAtual": -3137.25,
+  "sessoes": [
+    {
+      "Data": "03/07/2023",
+      "Ganhos": 174.15,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "04/07/2023",
+      "Ganhos": -729.45,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "05/07/2023",
+      "Ganhos": 50.2,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "06/07/2023",
+      "Ganhos": 949.8,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "07/07/2023",
+      "Ganhos": 637.45,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "08/07/2023",
+      "Ganhos": -108.4,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "09/07/2023",
+      "Ganhos": -273.0,
+      "Jogos": 113,
+      "Rake": 430.2,
+      "Saldo": 851.32
+    },
+    {
+      "Data": "10/07/2023",
+      "Ganhos": -211.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "11/07/2023",
+      "Ganhos": 1.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "12/07/2023",
+      "Ganhos": 1886.2,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "13/07/2023",
+      "Ganhos": -676.65,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "14/07/2023",
+      "Ganhos": -590.2,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "15/07/2023",
+      "Ganhos": -59.1,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "16/07/2023",
+      "Ganhos": -653.6,
+      "Jogos": 0,
+      "Rake": 528.11,
+      "Saldo": -118.51
+    },
+    {
+      "Data": "17/07/2023",
+      "Ganhos": -181.45,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "18/07/2023",
+      "Ganhos": -126.35,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "19/07/2023",
+      "Ganhos": -263.75,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "20/07/2023",
+      "Ganhos": 326.9,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "21/07/2023",
+      "Ganhos": -272.05,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "22/07/2023",
+      "Ganhos": 114.35,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "23/07/2023",
+      "Ganhos": 43.53,
+      "Jogos": 148,
+      "Rake": 568.71,
+      "Saldo": -159.77
+    },
+    {
+      "Data": "24/07/2023",
+      "Ganhos": 181.05,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "25/07/2023",
+      "Ganhos": -373.1,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "26/07/2023",
+      "Ganhos": 209.45,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "27/07/2023",
+      "Ganhos": -125.5,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "28/07/2023",
+      "Ganhos": -53.4,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "29/07/2023",
+      "Ganhos": 332.1,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "30/07/2023",
+      "Ganhos": 1280.63,
+      "Jogos": 116,
+      "Rake": 327.65,
+      "Saldo": 1565.91
+    },
+    {
+      "Data": "31/07/2023",
+      "Ganhos": 27.7,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "01/08/2023",
+      "Ganhos": 851.95,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "02/08/2023",
+      "Ganhos": -413.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "03/08/2023",
+      "Ganhos": 1060.3,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "04/08/2023",
+      "Ganhos": 204.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "05/08/2023",
+      "Ganhos": 744.45,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "06/08/2023",
+      "Ganhos": 197.05,
+      "Jogos": 107,
+      "Rake": 307.71,
+      "Saldo": 2780.15
+    },
+    {
+      "Data": "07/08/2023",
+      "Ganhos": -56.15,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "08/08/2023",
+      "Ganhos": -375.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "09/08/2023",
+      "Ganhos": -151.75,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "10/08/2023",
+      "Ganhos": -426.5,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "11/08/2023",
+      "Ganhos": -242.85,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "12/08/2023",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "13/08/2023",
+      "Ganhos": -178.0,
+      "Jogos": 107,
+      "Rake": 337.88,
+      "Saldo": -1311.99
+    },
+    {
+      "Data": "14/08/2023",
+      "Ganhos": -289.85,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "15/08/2023",
+      "Ganhos": -460.45,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "16/08/2023",
+      "Ganhos": 335.8,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "17/08/2023",
+      "Ganhos": 79.8,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "18/08/2023",
+      "Ganhos": 420.4,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "19/08/2023",
+      "Ganhos": -282.9,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "20/08/2023",
+      "Ganhos": 995.55,
+      "Jogos": 227,
+      "Rake": 752.33,
+      "Saldo": 1061.66
+    },
+    {
+      "Data": "21/08/2023",
+      "Ganhos": -79.85,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "22/08/2023",
+      "Ganhos": 516.8,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "23/08/2023",
+      "Ganhos": -153.55,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "24/08/2023",
+      "Ganhos": -1048.3,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "25/08/2023",
+      "Ganhos": -624.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "26/08/2023",
+      "Ganhos": -668.45,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "27/08/2023",
+      "Ganhos": 1336.25,
+      "Jogos": 210,
+      "Rake": 770.94,
+      "Saldo": -451.27
+    },
+    {
+      "Data": "28/08/2023",
+      "Ganhos": -129.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "29/08/2023",
+      "Ganhos": -48.6,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "30/08/2023",
+      "Ganhos": 328.2,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "31/08/2023",
+      "Ganhos": -608.8,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "01/09/2023",
+      "Ganhos": -545.65,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "02/09/2023",
+      "Ganhos": -177.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "03/09/2023",
+      "Ganhos": -130.6,
+      "Jogos": 186,
+      "Rake": 739.13,
+      "Saldo": -1052.76
+    },
+    {
+      "Data": "04/09/2023",
+      "Ganhos": 51.9,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "05/09/2023",
+      "Ganhos": 6.3,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "06/09/2023",
+      "Ganhos": -545.85,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "07/09/2023",
+      "Ganhos": -512.15,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "08/09/2023",
+      "Ganhos": -317.45,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "09/09/2023",
+      "Ganhos": -401.7,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "10/09/2023",
+      "Ganhos": -439.7,
+      "Jogos": 177,
+      "Rake": 805.13,
+      "Saldo": -1876.86
+    },
+    {
+      "Data": "11/09/2023",
+      "Ganhos": -261.7,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "12/09/2023",
+      "Ganhos": 14.25,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "13/09/2023",
+      "Ganhos": 1261.05,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "14/09/2023",
+      "Ganhos": 216.2,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "15/09/2023",
+      "Ganhos": -432.6,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "16/09/2023",
+      "Ganhos": -489.95,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "17/09/2023",
+      "Ganhos": 16785.65,
+      "Jogos": 174,
+      "Rake": 792.75,
+      "Saldo": 17370.36
+    },
+    {
+      "Data": "18/09/2023",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "19/09/2023",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "20/09/2023",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "21/09/2023",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "22/09/2023",
+      "Ganhos": -155.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "23/09/2023",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "24/09/2023",
+      "Ganhos": 0.0,
+      "Jogos": 2,
+      "Rake": 11.63,
+      "Saldo": -152.09
+    },
+    {
+      "Data": "25/09/2023",
+      "Ganhos": 15.35,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "26/09/2023",
+      "Ganhos": -188.6,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "27/09/2023",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "28/09/2023",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "29/09/2023",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "30/09/2023",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "01/10/2023",
+      "Ganhos": 1151.95,
+      "Jogos": 45,
+      "Rake": 118.36,
+      "Saldo": 1008.29
+    },
+    {
+      "Data": "02/10/2023",
+      "Ganhos": -231.5,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "03/10/2023",
+      "Ganhos": -251.85,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "04/10/2023",
+      "Ganhos": -505.05,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "05/10/2023",
+      "Ganhos": -450.65,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "06/10/2023",
+      "Ganhos": -96.75,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "07/10/2023",
+      "Ganhos": -346.7,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "08/10/2023",
+      "Ganhos": -216.35,
+      "Jogos": 144,
+      "Rake": 377.38,
+      "Saldo": -1966.77
+    },
+    {
+      "Data": "09/10/2023",
+      "Ganhos": -45.05,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "10/10/2023",
+      "Ganhos": -456.5,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "11/10/2023",
+      "Ganhos": -83.8,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "12/10/2023",
+      "Ganhos": -150.45,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "13/10/2023",
+      "Ganhos": -83.75,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "14/10/2023",
+      "Ganhos": -163.8,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "15/10/2023",
+      "Ganhos": 8557.15,
+      "Jogos": 136,
+      "Rake": 349.2,
+      "Saldo": 7696.02
+    },
+    {
+      "Data": "16/10/2023",
+      "Ganhos": -390.75,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "17/10/2023",
+      "Ganhos": -201.5,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "18/10/2023",
+      "Ganhos": -472.8,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "19/10/2023",
+      "Ganhos": -365.7,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "20/10/2023",
+      "Ganhos": -216.5,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "21/10/2023",
+      "Ganhos": -147.7,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "22/10/2023",
+      "Ganhos": -730.0,
+      "Jogos": 68,
+      "Rake": 441.0,
+      "Saldo": -2370.6
+    },
+    {
+      "Data": "23/10/2023",
+      "Ganhos": -22.05,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "24/10/2023",
+      "Ganhos": -248.5,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "25/10/2023",
+      "Ganhos": -256.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "26/10/2023",
+      "Ganhos": 232.1,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "27/10/2023",
+      "Ganhos": -196.2,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "28/10/2023",
+      "Ganhos": -488.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "29/10/2023",
+      "Ganhos": -579.35,
+      "Jogos": 58,
+      "Rake": 482.78,
+      "Saldo": -1389.03
+    },
+    {
+      "Data": "30/10/2023",
+      "Ganhos": -74.55,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "31/10/2023",
+      "Ganhos": -311.6,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "01/11/2023",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "02/11/2023",
+      "Ganhos": -207.3,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "03/11/2023",
+      "Ganhos": 1500.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "04/11/2023",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "05/11/2023",
+      "Ganhos": 4.75,
+      "Jogos": 51,
+      "Rake": 174.9,
+      "Saldo": 972.52
+    },
+    {
+      "Data": "06/11/2023",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "07/11/2023",
+      "Ganhos": -150.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "08/11/2023",
+      "Ganhos": -198.05,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "09/11/2023",
+      "Ganhos": -25.2,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "10/11/2023",
+      "Ganhos": -289.6,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "11/11/2023",
+      "Ganhos": 3.85,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "12/11/2023",
+      "Ganhos": -419.3,
+      "Jogos": 76,
+      "Rake": 224.25,
+      "Saldo": -999.81
+    },
+    {
+      "Data": "13/11/2023",
+      "Ganhos": -21.5,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "14/11/2023",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "15/11/2023",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "16/11/2023",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "17/11/2023",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "18/11/2023",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "19/11/2023",
+      "Ganhos": -923.1,
+      "Jogos": 40,
+      "Rake": 212.31,
+      "Saldo": -891.52
+    },
+    {
+      "Data": "20/11/2023",
+      "Ganhos": 3283.45,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "21/11/2023",
+      "Ganhos": -697.55,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "22/11/2023",
+      "Ganhos": 249.3,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "23/11/2023",
+      "Ganhos": -1402.75,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "24/11/2023",
+      "Ganhos": -592.65,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "25/11/2023",
+      "Ganhos": -417.55,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "26/11/2023",
+      "Ganhos": -913.85,
+      "Jogos": 105,
+      "Rake": 849.06,
+      "Saldo": -194.43
+    },
+    {
+      "Data": "27/11/2023",
+      "Ganhos": 196.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "28/11/2023",
+      "Ganhos": -247.75,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "29/11/2023",
+      "Ganhos": -786.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "30/11/2023",
+      "Ganhos": -228.1,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "01/12/2023",
+      "Ganhos": -1000.3,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "02/12/2023",
+      "Ganhos": 743.85,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "03/12/2023",
+      "Ganhos": -579.5,
+      "Jogos": 103,
+      "Rake": 735.44,
+      "Saldo": -1644.4
+    },
+    {
+      "Data": "04/12/2023",
+      "Ganhos": -870.75,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "05/12/2023",
+      "Ganhos": -1038.9,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "06/12/2023",
+      "Ganhos": -929.4,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "07/12/2023",
+      "Ganhos": -245.8,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "08/12/2023",
+      "Ganhos": 818.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "09/12/2023",
+      "Ganhos": -181.65,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "10/12/2023",
+      "Ganhos": 11569.3,
+      "Jogos": 103,
+      "Rake": 777.81,
+      "Saldo": 9393.03
+    },
+    {
+      "Data": "11/12/2023",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "12/12/2023",
+      "Ganhos": -266.45,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "13/12/2023",
+      "Ganhos": 1045.4,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "14/12/2023",
+      "Ganhos": 8147.25,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "15/12/2023",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "16/12/2023",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "17/12/2023",
+      "Ganhos": 0.0,
+      "Jogos": 32,
+      "Rake": 79.13,
+      "Saldo": 8945.98
+    },
+    {
+      "Data": "18/12/2023",
+      "Ganhos": 85.8,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "19/12/2023",
+      "Ganhos": -90.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "20/12/2023",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "21/12/2023",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "22/12/2023",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "23/12/2023",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "24/12/2023",
+      "Ganhos": 0.0,
+      "Jogos": 18,
+      "Rake": 38.5,
+      "Saldo": 5.42
+    },
+    {
+      "Data": "25/12/2023",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "26/12/2023",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "27/12/2023",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "28/12/2023",
+      "Ganhos": -80.9,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "29/12/2023",
+      "Ganhos": 229.95,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "30/12/2023",
+      "Ganhos": -44.9,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "31/12/2023",
+      "Ganhos": 0.0,
+      "Jogos": 17,
+      "Rake": 42.75,
+      "Saldo": 114.84
+    },
+    {
+      "Data": "01/01/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "02/01/2024",
+      "Ganhos": -97.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "03/01/2024",
+      "Ganhos": -219.95,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "04/01/2024",
+      "Ganhos": -46.6,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "05/01/2024",
+      "Ganhos": -378.3,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "06/01/2024",
+      "Ganhos": 6.35,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "07/01/2024",
+      "Ganhos": -11.7,
+      "Jogos": 106,
+      "Rake": 277.68,
+      "Saldo": -650.01
+    },
+    {
+      "Data": "08/01/2024",
+      "Ganhos": -228.35,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "09/01/2024",
+      "Ganhos": 4.9,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "10/01/2024",
+      "Ganhos": -117.8,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "11/01/2024",
+      "Ganhos": 124.95,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "12/01/2024",
+      "Ganhos": -471.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "13/01/2024",
+      "Ganhos": -36.75,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "14/01/2024",
+      "Ganhos": 159.5,
+      "Jogos": 118,
+      "Rake": 313.74,
+      "Saldo": -454.74
+    },
+    {
+      "Data": "15/01/2024",
+      "Ganhos": -506.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "16/01/2024",
+      "Ganhos": 658.5,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "17/01/2024",
+      "Ganhos": 178.7,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "18/01/2024",
+      "Ganhos": 33.6,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "19/01/2024",
+      "Ganhos": -405.35,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "20/01/2024",
+      "Ganhos": 1705.15,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "21/01/2024",
+      "Ganhos": 524.6,
+      "Jogos": 165,
+      "Rake": 461.38,
+      "Saldo": 2350.68
+    },
+    {
+      "Data": "22/01/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "23/01/2024",
+      "Ganhos": -209.95,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "24/01/2024",
+      "Ganhos": -370.1,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "25/01/2024",
+      "Ganhos": -407.9,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "26/01/2024",
+      "Ganhos": -153.25,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "27/01/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "28/01/2024",
+      "Ganhos": -38.9,
+      "Jogos": 57,
+      "Rake": 199.5,
+      "Saldo": -1110.28
+    },
+    {
+      "Data": "29/01/2024",
+      "Ganhos": -655.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "30/01/2024",
+      "Ganhos": -253.3,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "31/01/2024",
+      "Ganhos": -234.5,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "01/02/2024",
+      "Ganhos": -68.2,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "02/02/2024",
+      "Ganhos": -55.85,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "03/02/2024",
+      "Ganhos": 729.2,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "04/02/2024",
+      "Ganhos": -1131.95,
+      "Jogos": 163,
+      "Rake": 457.95,
+      "Saldo": -1509.32
+    },
+    {
+      "Data": "05/02/2024",
+      "Ganhos": -431.4,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "06/02/2024",
+      "Ganhos": 284.95,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "07/02/2024",
+      "Ganhos": 5.75,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "08/02/2024",
+      "Ganhos": -541.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "09/02/2024",
+      "Ganhos": -165.1,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "10/02/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "11/02/2024",
+      "Ganhos": -18.25,
+      "Jogos": 99,
+      "Rake": 310.5,
+      "Saldo": -756.38
+    },
+    {
+      "Data": "12/02/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "13/02/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "14/02/2024",
+      "Ganhos": -142.95,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "15/02/2024",
+      "Ganhos": 158.1,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "16/02/2024",
+      "Ganhos": -312.8,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "17/02/2024",
+      "Ganhos": -434.15,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "18/02/2024",
+      "Ganhos": -520.0,
+      "Jogos": 76,
+      "Rake": 256.88,
+      "Saldo": -1161.89
+    },
+    {
+      "Data": "19/02/2024",
+      "Ganhos": 635.7,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "20/02/2024",
+      "Ganhos": -684.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "21/02/2024",
+      "Ganhos": -230.5,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "22/02/2024",
+      "Ganhos": -176.1,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "23/02/2024",
+      "Ganhos": -1130.25,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "24/02/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "25/02/2024",
+      "Ganhos": 453.1,
+      "Jogos": 76,
+      "Rake": 608.53,
+      "Saldo": -919.07
+    },
+    {
+      "Data": "26/02/2024",
+      "Ganhos": -1154.9,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "27/02/2024",
+      "Ganhos": -972.15,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "28/02/2024",
+      "Ganhos": -362.8,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "29/02/2024",
+      "Ganhos": 505.25,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "01/03/2024",
+      "Ganhos": -503.05,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "02/03/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "03/03/2024",
+      "Ganhos": -173.85,
+      "Jogos": 76,
+      "Rake": 602.25,
+      "Saldo": -2450.71
+    },
+    {
+      "Data": "04/03/2024",
+      "Ganhos": 4.55,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "05/03/2024",
+      "Ganhos": -344.8,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "06/03/2024",
+      "Ganhos": -640.9,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "07/03/2024",
+      "Ganhos": -385.7,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "08/03/2024",
+      "Ganhos": -931.45,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "09/03/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "10/03/2024",
+      "Ganhos": 8229.75,
+      "Jogos": 80,
+      "Rake": 628.5,
+      "Saldo": 6151.43
+    },
+    {
+      "Data": "11/03/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "12/03/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "13/03/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "14/03/2024",
+      "Ganhos": -365.85,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "15/03/2024",
+      "Ganhos": -180.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "16/03/2024",
+      "Ganhos": -120.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "17/03/2024",
+      "Ganhos": 250.0,
+      "Jogos": 37,
+      "Rake": 83.63,
+      "Saldo": -394.94
+    },
+    {
+      "Data": "18/03/2024",
+      "Ganhos": -509.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "19/03/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "20/03/2024",
+      "Ganhos": -375.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "21/03/2024",
+      "Ganhos": -336.85,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "22/03/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "23/03/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "24/03/2024",
+      "Ganhos": 76.1,
+      "Jogos": 33,
+      "Rake": 155.25,
+      "Saldo": -1105.94
+    },
+    {
+      "Data": "25/03/2024",
+      "Ganhos": 176.85,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "26/03/2024",
+      "Ganhos": -35.2,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "27/03/2024",
+      "Ganhos": -338.2,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "28/03/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "29/03/2024",
+      "Ganhos": -72.6,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "30/03/2024",
+      "Ganhos": -83.15,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "31/03/2024",
+      "Ganhos": -731.75,
+      "Jogos": 77,
+      "Rake": 296.7,
+      "Saldo": -980.21
+    },
+    {
+      "Data": "01/04/2024",
+      "Ganhos": -364.6,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "02/04/2024",
+      "Ganhos": -417.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "03/04/2024",
+      "Ganhos": -510.75,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "04/04/2024",
+      "Ganhos": -409.75,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "05/04/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "06/04/2024",
+      "Ganhos": -96.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "07/04/2024",
+      "Ganhos": -152.95,
+      "Jogos": 118,
+      "Rake": 292.01,
+      "Saldo": -1848.85
+    },
+    {
+      "Data": "08/04/2024",
+      "Ganhos": -253.9,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "09/04/2024",
+      "Ganhos": -649.3,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "10/04/2024",
+      "Ganhos": -182.75,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "11/04/2024",
+      "Ganhos": -143.15,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "12/04/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "13/04/2024",
+      "Ganhos": 115.05,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "14/04/2024",
+      "Ganhos": -587.0,
+      "Jogos": 67,
+      "Rake": 233.34,
+      "Saldo": -1619.38
+    },
+    {
+      "Data": "15/04/2024",
+      "Ganhos": -245.45,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "16/04/2024",
+      "Ganhos": -223.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "17/04/2024",
+      "Ganhos": -561.6,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "18/04/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "19/04/2024",
+      "Ganhos": -240.6,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "20/04/2024",
+      "Ganhos": 187.15,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "21/04/2024",
+      "Ganhos": -821.3,
+      "Jogos": 102,
+      "Rake": 313.23,
+      "Saldo": -1795.17
+    },
+    {
+      "Data": "22/04/2024",
+      "Ganhos": 626.65,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "23/04/2024",
+      "Ganhos": -390.9,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "24/04/2024",
+      "Ganhos": -337.7,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "25/04/2024",
+      "Ganhos": -417.85,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "26/04/2024",
+      "Ganhos": 245.8,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "27/04/2024",
+      "Ganhos": -42.5,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "28/04/2024",
+      "Ganhos": -943.6,
+      "Jogos": 142,
+      "Rake": 478.05,
+      "Saldo": -1092.78
+    },
+    {
+      "Data": "29/04/2024",
+      "Ganhos": 304.2,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "30/04/2024",
+      "Ganhos": -385.75,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "01/05/2024",
+      "Ganhos": -598.85,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "02/05/2024",
+      "Ganhos": -45.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "03/05/2024",
+      "Ganhos": -115.45,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "04/05/2024",
+      "Ganhos": -117.05,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "05/05/2024",
+      "Ganhos": -310.7,
+      "Jogos": 79,
+      "Rake": 265.88,
+      "Saldo": -1175.54
+    },
+    {
+      "Data": "06/05/2024",
+      "Ganhos": -673.15,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "07/05/2024",
+      "Ganhos": -139.55,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "08/05/2024",
+      "Ganhos": -131.7,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "09/05/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "10/05/2024",
+      "Ganhos": -138.75,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "11/05/2024",
+      "Ganhos": 416.2,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "12/05/2024",
+      "Ganhos": -191.6,
+      "Jogos": 94,
+      "Rake": 262.77,
+      "Saldo": -766.58
+    },
+    {
+      "Data": "13/05/2024",
+      "Ganhos": -133.6,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "14/05/2024",
+      "Ganhos": -222.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "15/05/2024",
+      "Ganhos": 195.6,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "16/05/2024",
+      "Ganhos": -648.9,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "17/05/2024",
+      "Ganhos": -105.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "18/05/2024",
+      "Ganhos": -160.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "19/05/2024",
+      "Ganhos": 4240.05,
+      "Jogos": 102,
+      "Rake": 355.81,
+      "Saldo": 3290.68
+    },
+    {
+      "Data": "20/05/2024",
+      "Ganhos": -824.6,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "21/05/2024",
+      "Ganhos": 350.95,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "22/05/2024",
+      "Ganhos": -587.3,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "23/05/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "24/05/2024",
+      "Ganhos": -165.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "25/05/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "26/05/2024",
+      "Ganhos": -487.15,
+      "Jogos": 92,
+      "Rake": 344.63,
+      "Saldo": -1592.48
+    },
+    {
+      "Data": "27/05/2024",
+      "Ganhos": 437.3,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "28/05/2024",
+      "Ganhos": 969.95,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "29/05/2024",
+      "Ganhos": -47.25,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "30/05/2024",
+      "Ganhos": -483.25,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "31/05/2024",
+      "Ganhos": -245.7,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "01/06/2024",
+      "Ganhos": -406.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "02/06/2024",
+      "Ganhos": -1467.1,
+      "Jogos": 158,
+      "Rake": 517.09,
+      "Saldo": -1061.07
+    },
+    {
+      "Data": "03/06/2024",
+      "Ganhos": -351.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "04/06/2024",
+      "Ganhos": 54.65,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "05/06/2024",
+      "Ganhos": -86.25,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "06/06/2024",
+      "Ganhos": -159.05,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "07/06/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "08/06/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "09/06/2024",
+      "Ganhos": 0.0,
+      "Jogos": 60,
+      "Rake": 228.15,
+      "Saldo": -461.8
+    },
+    {
+      "Data": "10/06/2024",
+      "Ganhos": -193.15,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "11/06/2024",
+      "Ganhos": -765.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "12/06/2024",
+      "Ganhos": -218.35,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "13/06/2024",
+      "Ganhos": 2797.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "14/06/2024",
+      "Ganhos": 255.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "15/06/2024",
+      "Ganhos": 978.35,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "16/06/2024",
+      "Ganhos": 20172.3,
+      "Jogos": 128,
+      "Rake": 515.73,
+      "Saldo": 23206.65
+    },
+    {
+      "Data": "17/06/2024",
+      "Ganhos": -365.05,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "18/06/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "19/06/2024",
+      "Ganhos": -74.25,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "20/06/2024",
+      "Ganhos": -134.85,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "21/06/2024",
+      "Ganhos": 117.7,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "22/06/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "23/06/2024",
+      "Ganhos": 108.25,
+      "Jogos": 60,
+      "Rake": 235.88,
+      "Saldo": -265.64
+    },
+    {
+      "Data": "24/06/2024",
+      "Ganhos": 937.1,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "25/06/2024",
+      "Ganhos": 1162.9,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "26/06/2024",
+      "Ganhos": -437.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "27/06/2024",
+      "Ganhos": -263.6,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "28/06/2024",
+      "Ganhos": -245.35,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "29/06/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "30/06/2024",
+      "Ganhos": -535.5,
+      "Jogos": 110,
+      "Rake": 334.88,
+      "Saldo": 735.76
+    },
+    {
+      "Data": "01/07/2024",
+      "Ganhos": -423.7,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "02/07/2024",
+      "Ganhos": -570.05,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "03/07/2024",
+      "Ganhos": 315.95,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "04/07/2024",
+      "Ganhos": -143.7,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "05/07/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "06/07/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "07/07/2024",
+      "Ganhos": 61.5,
+      "Jogos": 83,
+      "Rake": 325.35,
+      "Saldo": -646.13
+    },
+    {
+      "Data": "08/07/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "09/07/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "10/07/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "11/07/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "12/07/2024",
+      "Ganhos": -62.4,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "13/07/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "14/07/2024",
+      "Ganhos": -443.8,
+      "Jogos": 17,
+      "Rake": 78.75,
+      "Saldo": -486.51
+    },
+    {
+      "Data": "15/07/2024",
+      "Ganhos": 26.25,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "16/07/2024",
+      "Ganhos": 41.65,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "17/07/2024",
+      "Ganhos": -173.6,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "18/07/2024",
+      "Ganhos": -291.4,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "19/07/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "20/07/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "21/07/2024",
+      "Ganhos": 728.7,
+      "Jogos": 68,
+      "Rake": 264.0,
+      "Saldo": 424.0
+    },
+    {
+      "Data": "22/07/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "23/07/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "24/07/2024",
+      "Ganhos": -169.55,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "25/07/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "26/07/2024",
+      "Ganhos": 14.15,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "27/07/2024",
+      "Ganhos": -175.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "28/07/2024",
+      "Ganhos": 10241.75,
+      "Jogos": 68,
+      "Rake": 125.63,
+      "Saldo": 9955.32
+    },
+    {
+      "Data": "29/07/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "30/07/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "31/07/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "01/08/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "02/08/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "03/08/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "04/08/2024",
+      "Ganhos": -395.8,
+      "Jogos": 27,
+      "Rake": 191.25,
+      "Saldo": -347.99
+    },
+    {
+      "Data": "05/08/2024",
+      "Ganhos": -1077.15,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "06/08/2024",
+      "Ganhos": -974.7,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "07/08/2024",
+      "Ganhos": -1111.55,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "08/08/2024",
+      "Ganhos": 576.8,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "09/08/2024",
+      "Ganhos": -1144.05,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "10/08/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "11/08/2024",
+      "Ganhos": -1040.8,
+      "Jogos": 94,
+      "Rake": 865.88,
+      "Saldo": -4468.39
+    },
+    {
+      "Data": "12/08/2024",
+      "Ganhos": -1143.7,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "13/08/2024",
+      "Ganhos": -482.65,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "14/08/2024",
+      "Ganhos": -399.45,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "15/08/2024",
+      "Ganhos": -350.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "16/08/2024",
+      "Ganhos": -71.4,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "17/08/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "18/08/2024",
+      "Ganhos": -172.35,
+      "Jogos": 73,
+      "Rake": 537.75,
+      "Saldo": -2431.34
+    },
+    {
+      "Data": "19/08/2024",
+      "Ganhos": -38.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "20/08/2024",
+      "Ganhos": -338.55,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "21/08/2024",
+      "Ganhos": -781.4,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "22/08/2024",
+      "Ganhos": -168.9,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "23/08/2024",
+      "Ganhos": 4900.75,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "24/08/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "25/08/2024",
+      "Ganhos": 92.35,
+      "Jogos": 69,
+      "Rake": 489.38,
+      "Saldo": 3837.53
+    },
+    {
+      "Data": "26/08/2024",
+      "Ganhos": -491.15,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "27/08/2024",
+      "Ganhos": -46.3,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "28/08/2024",
+      "Ganhos": -1177.35,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "29/08/2024",
+      "Ganhos": -397.2,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "30/08/2024",
+      "Ganhos": -261.4,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "31/08/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "01/09/2024",
+      "Ganhos": -853.35,
+      "Jogos": 64,
+      "Rake": 540.0,
+      "Saldo": -3037.75
+    },
+    {
+      "Data": "02/09/2024",
+      "Ganhos": -390.65,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "03/09/2024",
+      "Ganhos": -140.3,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "04/09/2024",
+      "Ganhos": -357.05,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "05/09/2024",
+      "Ganhos": -1097.05,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "06/09/2024",
+      "Ganhos": -690.05,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "07/09/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "08/09/2024",
+      "Ganhos": -1040.4,
+      "Jogos": 76,
+      "Rake": 653.63,
+      "Saldo": -3486.73
+    },
+    {
+      "Data": "09/09/2024",
+      "Ganhos": -284.05,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "10/09/2024",
+      "Ganhos": -957.25,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "11/09/2024",
+      "Ganhos": -1516.25,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "12/09/2024",
+      "Ganhos": -745.9,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "13/09/2024",
+      "Ganhos": -750.9,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "14/09/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "15/09/2024",
+      "Ganhos": -1302.35,
+      "Jogos": 83,
+      "Rake": 762.75,
+      "Saldo": -5289.74
+    },
+    {
+      "Data": "16/09/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "17/09/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "18/09/2024",
+      "Ganhos": -220.2,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "19/09/2024",
+      "Ganhos": -82.2,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "20/09/2024",
+      "Ganhos": -366.3,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "21/09/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "22/09/2024",
+      "Ganhos": 11984.25,
+      "Jogos": 39,
+      "Rake": 136.88,
+      "Saldo": 11349.77
+    },
+    {
+      "Data": "23/09/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "24/09/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "25/09/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "26/09/2024",
+      "Ganhos": 1144.55,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "27/09/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "28/09/2024",
+      "Ganhos": -53.5,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "29/09/2024",
+      "Ganhos": -213.05,
+      "Jogos": 23,
+      "Rake": 72.0,
+      "Saldo": 896.0
+    },
+    {
+      "Data": "30/09/2024",
+      "Ganhos": -176.2,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "01/10/2024",
+      "Ganhos": -573.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "02/10/2024",
+      "Ganhos": -1112.15,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "03/10/2024",
+      "Ganhos": -698.4,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "04/10/2024",
+      "Ganhos": -720.3,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "05/10/2024",
+      "Ganhos": -291.45,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "06/10/2024",
+      "Ganhos": -539.7,
+      "Jogos": 118,
+      "Rake": 813.38,
+      "Saldo": -3826.52
+    },
+    {
+      "Data": "07/10/2024",
+      "Ganhos": -173.95,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "08/10/2024",
+      "Ganhos": -967.95,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "09/10/2024",
+      "Ganhos": -500.85,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "10/10/2024",
+      "Ganhos": -291.4,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "11/10/2024",
+      "Ganhos": -438.4,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "12/10/2024",
+      "Ganhos": -572.15,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "13/10/2024",
+      "Ganhos": -1000.5,
+      "Jogos": 102,
+      "Rake": 760.88,
+      "Saldo": -3678.89
+    },
+    {
+      "Data": "14/10/2024",
+      "Ganhos": -530.45,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "15/10/2024",
+      "Ganhos": 2322.85,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "16/10/2024",
+      "Ganhos": -800.5,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "17/10/2024",
+      "Ganhos": -82.05,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "18/10/2024",
+      "Ganhos": -457.35,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "19/10/2024",
+      "Ganhos": -367.1,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "20/10/2024",
+      "Ganhos": 201.75,
+      "Jogos": 109,
+      "Rake": 759.15,
+      "Saldo": 552.85
+    },
+    {
+      "Data": "21/10/2024",
+      "Ganhos": 20750.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "22/10/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "23/10/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "24/10/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "25/10/2024",
+      "Ganhos": -300.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "26/10/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "27/10/2024",
+      "Ganhos": 0.0,
+      "Jogos": 5,
+      "Rake": 22.5,
+      "Saldo": 20455.63
+    },
+    {
+      "Data": "28/10/2024",
+      "Ganhos": -125.3,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "29/10/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "30/10/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "31/10/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "01/11/2024",
+      "Ganhos": -211.65,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "02/11/2024",
+      "Ganhos": -203.4,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "03/11/2024",
+      "Ganhos": -485.0,
+      "Jogos": 33,
+      "Rake": 94.88,
+      "Saldo": -1001.63
+    },
+    {
+      "Data": "04/11/2024",
+      "Ganhos": -24.5,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "05/11/2024",
+      "Ganhos": -157.4,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "06/11/2024",
+      "Ganhos": -578.05,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "07/11/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "08/11/2024",
+      "Ganhos": 83.55,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "09/11/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "10/11/2024",
+      "Ganhos": -262.65,
+      "Jogos": 52,
+      "Rake": 173.63,
+      "Saldo": -878.28
+    },
+    {
+      "Data": "11/11/2024",
+      "Ganhos": 11.6,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "12/11/2024",
+      "Ganhos": 5419.15,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "13/11/2024",
+      "Ganhos": 3295.15,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "14/11/2024",
+      "Ganhos": -484.3,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "15/11/2024",
+      "Ganhos": 154.4,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "16/11/2024",
+      "Ganhos": -271.95,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "17/11/2024",
+      "Ganhos": -177.7,
+      "Jogos": 154,
+      "Rake": 392.0,
+      "Saldo": 8083.55
+    },
+    {
+      "Data": "18/11/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "19/11/2024",
+      "Ganhos": -105.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "20/11/2024",
+      "Ganhos": -11.45,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "21/11/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "22/11/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "23/11/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "24/11/2024",
+      "Ganhos": 0.0,
+      "Jogos": 23,
+      "Rake": 101.18,
+      "Saldo": -91.16
+    },
+    {
+      "Data": "25/11/2024",
+      "Ganhos": -216.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "26/11/2024",
+      "Ganhos": 492.05,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "27/11/2024",
+      "Ganhos": -297.6,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "28/11/2024",
+      "Ganhos": 533.3,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "29/11/2024",
+      "Ganhos": -468.45,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "30/11/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "01/12/2024",
+      "Ganhos": -120.45,
+      "Jogos": 80,
+      "Rake": 176.78,
+      "Saldo": -15.28
+    },
+    {
+      "Data": "02/12/2024",
+      "Ganhos": -74.55,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "03/12/2024",
+      "Ganhos": -472.7,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "04/12/2024",
+      "Ganhos": -549.25,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "05/12/2024",
+      "Ganhos": -9.9,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "06/12/2024",
+      "Ganhos": -358.1,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "07/12/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "08/12/2024",
+      "Ganhos": -107.1,
+      "Jogos": 111,
+      "Rake": 297.0,
+      "Saldo": -1467.65
+    },
+    {
+      "Data": "09/12/2024",
+      "Ganhos": -470.2,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "10/12/2024",
+      "Ganhos": -115.45,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "11/12/2024",
+      "Ganhos": 577.45,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "12/12/2024",
+      "Ganhos": -327.05,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "13/12/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "14/12/2024",
+      "Ganhos": -37.8,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "15/12/2024",
+      "Ganhos": -546.45,
+      "Jogos": 123,
+      "Rake": 315.0,
+      "Saldo": -809.25
+    },
+    {
+      "Data": "16/12/2024",
+      "Ganhos": 883.65,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "17/12/2024",
+      "Ganhos": -563.35,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "18/12/2024",
+      "Ganhos": 129.6,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "19/12/2024",
+      "Ganhos": 362.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "20/12/2024",
+      "Ganhos": 185.4,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "21/12/2024",
+      "Ganhos": 35.7,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "22/12/2024",
+      "Ganhos": 599.5,
+      "Jogos": 125,
+      "Rake": 333.28,
+      "Saldo": 1749.15
+    },
+    {
+      "Data": "23/12/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "24/12/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "25/12/2024",
+      "Ganhos": -28.2,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "26/12/2024",
+      "Ganhos": 40.8,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "27/12/2024",
+      "Ganhos": 189.1,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "28/12/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "29/12/2024",
+      "Ganhos": -149.45,
+      "Jogos": 61,
+      "Rake": 174.75,
+      "Saldo": 113.41
+    },
+    {
+      "Data": "30/12/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "31/12/2024",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "01/01/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "02/01/2025",
+      "Ganhos": 0.3,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "03/01/2025",
+      "Ganhos": -59.55,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "04/01/2025",
+      "Ganhos": 58.85,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "05/01/2025",
+      "Ganhos": 456.35,
+      "Jogos": 72,
+      "Rake": 289.38,
+      "Saldo": 557.23
+    },
+    {
+      "Data": "06/01/2025",
+      "Ganhos": -948.4,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "07/01/2025",
+      "Ganhos": -331.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "08/01/2025",
+      "Ganhos": 166.95,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "09/01/2025",
+      "Ganhos": 125.95,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "10/01/2025",
+      "Ganhos": -454.85,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "11/01/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "12/01/2025",
+      "Ganhos": 284.75,
+      "Jogos": 80,
+      "Rake": 557.25,
+      "Saldo": -1156.6
+    },
+    {
+      "Data": "13/01/2025",
+      "Ganhos": -836.1,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "14/01/2025",
+      "Ganhos": -1053.1,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "15/01/2025",
+      "Ganhos": -847.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "16/01/2025",
+      "Ganhos": -550.45,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "17/01/2025",
+      "Ganhos": -265.7,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "18/01/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "19/01/2025",
+      "Ganhos": 17403.5,
+      "Jogos": 81,
+      "Rake": 684.75,
+      "Saldo": 13851.15
+    },
+    {
+      "Data": "20/01/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "21/01/2025",
+      "Ganhos": -224.9,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "22/01/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "23/01/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "24/01/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "25/01/2025",
+      "Ganhos": -238.65,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "26/01/2025",
+      "Ganhos": 151.45,
+      "Jogos": 32,
+      "Rake": 81.75,
+      "Saldo": -312.1
+    },
+    {
+      "Data": "27/01/2025",
+      "Ganhos": -5.65,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "28/01/2025",
+      "Ganhos": 110.25,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "29/01/2025",
+      "Ganhos": -480.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "30/01/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "31/01/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "01/02/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "02/02/2025",
+      "Ganhos": 83.7,
+      "Jogos": 49,
+      "Rake": 133.13,
+      "Saldo": -813.14
+    },
+    {
+      "Data": "03/02/2025",
+      "Ganhos": -99.75,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "04/02/2025",
+      "Ganhos": 5.65,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "05/02/2025",
+      "Ganhos": -235.7,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "06/02/2025",
+      "Ganhos": 583.95,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "07/02/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "08/02/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "09/02/2025",
+      "Ganhos": -71.95,
+      "Jogos": 38,
+      "Rake": 100.7,
+      "Saldo": 182.2
+    },
+    {
+      "Data": "10/02/2025",
+      "Ganhos": -152.4,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "11/02/2025",
+      "Ganhos": -977.6,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "12/02/2025",
+      "Ganhos": -193.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "13/02/2025",
+      "Ganhos": -24.35,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "14/02/2025",
+      "Ganhos": -168.15,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "15/02/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "16/02/2025",
+      "Ganhos": 0.0,
+      "Jogos": 40,
+      "Rake": 368.63,
+      "Saldo": -1515.5
+    },
+    {
+      "Data": "17/02/2025",
+      "Ganhos": -1081.3,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "18/02/2025",
+      "Ganhos": -694.1,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "19/02/2025",
+      "Ganhos": -1005.55,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "20/02/2025",
+      "Ganhos": 200.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "21/02/2025",
+      "Ganhos": -894.85,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "22/02/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "23/02/2025",
+      "Ganhos": 2248.6,
+      "Jogos": 45,
+      "Rake": 494.25,
+      "Saldo": -1227.2
+    },
+    {
+      "Data": "24/02/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "25/02/2025",
+      "Ganhos": -300.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "26/02/2025",
+      "Ganhos": -360.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "27/02/2025",
+      "Ganhos": -192.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "28/02/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "01/03/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "02/03/2025",
+      "Ganhos": 0.0,
+      "Jogos": 22,
+      "Rake": 75.0,
+      "Saldo": -852.0
+    },
+    {
+      "Data": "03/03/2025",
+      "Ganhos": 1405.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "04/03/2025",
+      "Ganhos": -378.65,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "05/03/2025",
+      "Ganhos": -187.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "06/03/2025",
+      "Ganhos": 170.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "07/03/2025",
+      "Ganhos": -188.3,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "08/03/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "09/03/2025",
+      "Ganhos": -361.65,
+      "Jogos": 57,
+      "Rake": 202.13,
+      "Saldo": 459.4
+    },
+    {
+      "Data": "10/03/2025",
+      "Ganhos": -471.45,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "11/03/2025",
+      "Ganhos": -467.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "12/03/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "13/03/2025",
+      "Ganhos": 15.5,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "14/03/2025",
+      "Ganhos": 194.2,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "15/03/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "16/03/2025",
+      "Ganhos": 100.8,
+      "Jogos": 46,
+      "Rake": 136.13,
+      "Saldo": -627.95
+    },
+    {
+      "Data": "17/03/2025",
+      "Ganhos": -150.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "18/03/2025",
+      "Ganhos": -300.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "19/03/2025",
+      "Ganhos": -381.25,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "20/03/2025",
+      "Ganhos": 9830.25,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "21/03/2025",
+      "Ganhos": 160.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "22/03/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "23/03/2025",
+      "Ganhos": -479.5,
+      "Jogos": 44,
+      "Rake": 170.25,
+      "Saldo": 8679.5
+    },
+    {
+      "Data": "24/03/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "25/03/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "26/03/2025",
+      "Ganhos": -152.9,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "27/03/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "28/03/2025",
+      "Ganhos": -70.15,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "29/03/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "30/03/2025",
+      "Ganhos": 758.9,
+      "Jogos": 23,
+      "Rake": 93.38,
+      "Saldo": 535.85
+    },
+    {
+      "Data": "31/03/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "01/04/2025",
+      "Ganhos": -194.65,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "02/04/2025",
+      "Ganhos": 420.45,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "03/04/2025",
+      "Ganhos": 23.4,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "04/04/2025",
+      "Ganhos": -355.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "05/04/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "06/04/2025",
+      "Ganhos": -334.25,
+      "Jogos": 43,
+      "Rake": 163.5,
+      "Saldo": -440.05
+    },
+    {
+      "Data": "07/04/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "08/04/2025",
+      "Ganhos": -141.05,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "09/04/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "10/04/2025",
+      "Ganhos": -20.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "11/04/2025",
+      "Ganhos": -2.1,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "12/04/2025",
+      "Ganhos": 68.7,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "13/04/2025",
+      "Ganhos": 178.1,
+      "Jogos": 46,
+      "Rake": 157.88,
+      "Saldo": 83.65
+    },
+    {
+      "Data": "14/04/2025",
+      "Ganhos": -119.3,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "15/04/2025",
+      "Ganhos": 265.85,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "16/04/2025",
+      "Ganhos": -337.7,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "17/04/2025",
+      "Ganhos": 166.1,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "18/04/2025",
+      "Ganhos": -387.35,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "19/04/2025",
+      "Ganhos": 115.9,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "20/04/2025",
+      "Ganhos": 11.3,
+      "Jogos": 89,
+      "Rake": 276.0,
+      "Saldo": -285.2
+    },
+    {
+      "Data": "21/04/2025",
+      "Ganhos": 188.8,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "22/04/2025",
+      "Ganhos": -1011.8,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "23/04/2025",
+      "Ganhos": -87.5,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "24/04/2025",
+      "Ganhos": -544.9,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "25/04/2025",
+      "Ganhos": 1836.7,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "26/04/2025",
+      "Ganhos": -94.1,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "27/04/2025",
+      "Ganhos": 420.3,
+      "Jogos": 60,
+      "Rake": 375.75,
+      "Saldo": 707.5
+    },
+    {
+      "Data": "28/04/2025",
+      "Ganhos": -348.75,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "29/04/2025",
+      "Ganhos": 819.1,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "30/04/2025",
+      "Ganhos": -1165.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "01/05/2025",
+      "Ganhos": -618.85,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "02/05/2025",
+      "Ganhos": -323.4,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "03/05/2025",
+      "Ganhos": 2572.7,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "04/05/2025",
+      "Ganhos": 580.8,
+      "Jogos": 60,
+      "Rake": 394.88,
+      "Saldo": 1516.6
+    },
+    {
+      "Data": "05/05/2025",
+      "Ganhos": -272.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "06/05/2025",
+      "Ganhos": -27.25,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "07/05/2025",
+      "Ganhos": -185.3,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "08/05/2025",
+      "Ganhos": -215.7,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "09/05/2025",
+      "Ganhos": 70.35,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "10/05/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "11/05/2025",
+      "Ganhos": 0.0,
+      "Jogos": 31,
+      "Rake": 119.25,
+      "Saldo": -629.9
+    },
+    {
+      "Data": "12/05/2025",
+      "Ganhos": -82.1,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "13/05/2025",
+      "Ganhos": -300.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "14/05/2025",
+      "Ganhos": -348.85,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "15/05/2025",
+      "Ganhos": -343.4,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "16/05/2025",
+      "Ganhos": 390.25,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "17/05/2025",
+      "Ganhos": -150.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "18/05/2025",
+      "Ganhos": -352.55,
+      "Jogos": 50,
+      "Rake": 166.88,
+      "Saldo": -1186.65
+    },
+    {
+      "Data": "19/05/2025",
+      "Ganhos": -258.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "20/05/2025",
+      "Ganhos": 652.1,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "21/05/2025",
+      "Ganhos": 228.2,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "22/05/2025",
+      "Ganhos": -348.05,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "23/05/2025",
+      "Ganhos": -195.7,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "24/05/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "25/05/2025",
+      "Ganhos": -85.05,
+      "Jogos": 47,
+      "Rake": 180.38,
+      "Saldo": -6.5
+    },
+    {
+      "Data": "26/05/2025",
+      "Ganhos": -75.75,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "27/05/2025",
+      "Ganhos": -456.25,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "28/05/2025",
+      "Ganhos": -363.95,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "29/05/2025",
+      "Ganhos": 36.3,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "30/05/2025",
+      "Ganhos": 101.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "31/05/2025",
+      "Ganhos": -108.9,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "01/06/2025",
+      "Ganhos": -257.1,
+      "Jogos": 57,
+      "Rake": 207.38,
+      "Saldo": -1124.65
+    },
+    {
+      "Data": "02/06/2025",
+      "Ganhos": -58.85,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "03/06/2025",
+      "Ganhos": -254.8,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "04/06/2025",
+      "Ganhos": -187.05,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "05/06/2025",
+      "Ganhos": -261.35,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "06/06/2025",
+      "Ganhos": 98.3,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "07/06/2025",
+      "Ganhos": 751.45,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "08/06/2025",
+      "Ganhos": -254.4,
+      "Jogos": 71,
+      "Rake": 243.45,
+      "Saldo": -166.7
+    },
+    {
+      "Data": "09/06/2025",
+      "Ganhos": -22.6,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "10/06/2025",
+      "Ganhos": 2044.55,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "11/06/2025",
+      "Ganhos": 1012.7,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "12/06/2025",
+      "Ganhos": 248.35,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "13/06/2025",
+      "Ganhos": -342.4,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "14/06/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "15/06/2025",
+      "Ganhos": 154.9,
+      "Jogos": 61,
+      "Rake": 255.0,
+      "Saldo": 3095.5
+    },
+    {
+      "Data": "16/06/2025",
+      "Ganhos": 23.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "17/06/2025",
+      "Ganhos": -160.4,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "18/06/2025",
+      "Ganhos": 356.65,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "19/06/2025",
+      "Ganhos": -46.7,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "20/06/2025",
+      "Ganhos": -224.5,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "21/06/2025",
+      "Ganhos": -41.35,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "22/06/2025",
+      "Ganhos": 17.9,
+      "Jogos": 53,
+      "Rake": 194.7,
+      "Saldo": -75.4
+    },
+    {
+      "Data": "23/06/2025",
+      "Ganhos": -23.1,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "24/06/2025",
+      "Ganhos": -295.3,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "25/06/2025",
+      "Ganhos": 128.95,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "26/06/2025",
+      "Ganhos": -99.95,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "27/06/2025",
+      "Ganhos": -218.7,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "28/06/2025",
+      "Ganhos": -53.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "29/06/2025",
+      "Ganhos": -785.2,
+      "Jogos": 104,
+      "Rake": 295.2,
+      "Saldo": -1346.3
+    },
+    {
+      "Data": "30/06/2025",
+      "Ganhos": -106.35,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "01/07/2025",
+      "Ganhos": -470.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "02/07/2025",
+      "Ganhos": -72.3,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "03/07/2025",
+      "Ganhos": -524.05,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "04/07/2025",
+      "Ganhos": -4.7,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "05/07/2025",
+      "Ganhos": -172.45,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "06/07/2025",
+      "Ganhos": 463.15,
+      "Jogos": 132,
+      "Rake": 451.13,
+      "Saldo": -886.7
+    },
+    {
+      "Data": "07/07/2025",
+      "Ganhos": -105.25,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "08/07/2025",
+      "Ganhos": -605.45,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "09/07/2025",
+      "Ganhos": -402.15,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "10/07/2025",
+      "Ganhos": -292.8,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "11/07/2025",
+      "Ganhos": -457.3,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "12/07/2025",
+      "Ganhos": 295.85,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "13/07/2025",
+      "Ganhos": 112.06,
+      "Jogos": 74,
+      "Rake": 548.25,
+      "Saldo": -1455.04
+    },
+    {
+      "Data": "14/07/2025",
+      "Ganhos": -563.9,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "15/07/2025",
+      "Ganhos": -665.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "16/07/2025",
+      "Ganhos": -888.8,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "17/07/2025",
+      "Ganhos": -407.45,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "18/07/2025",
+      "Ganhos": 2721.15,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "19/07/2025",
+      "Ganhos": -289.8,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "20/07/2025",
+      "Ganhos": -266.7,
+      "Jogos": 64,
+      "Rake": 613.5,
+      "Saldo": -360.5
+    },
+    {
+      "Data": "21/07/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "22/07/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "23/07/2025",
+      "Ganhos": -192.85,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "24/07/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "25/07/2025",
+      "Ganhos": -47.6,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "26/07/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "27/07/2025",
+      "Ganhos": 10000.0,
+      "Jogos": 10,
+      "Rake": 46.5,
+      "Saldo": 9759.55
+    },
+    {
+      "Data": "28/07/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "29/07/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "30/07/2025",
+      "Ganhos": 82.95,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "31/07/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "01/08/2025",
+      "Ganhos": -129.35,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "02/08/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "03/08/2025",
+      "Ganhos": -550.5,
+      "Jogos": 31,
+      "Rake": 147.0,
+      "Saldo": -596.9
+    },
+    {
+      "Data": "04/08/2025",
+      "Ganhos": 18.5,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "05/08/2025",
+      "Ganhos": -512.55,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "06/08/2025",
+      "Ganhos": -271.2,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "07/08/2025",
+      "Ganhos": -531.5,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "08/08/2025",
+      "Ganhos": -135.8,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "09/08/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "10/08/2025",
+      "Ganhos": -619.6,
+      "Jogos": 48,
+      "Rake": 366.69,
+      "Saldo": -2052.15
+    },
+    {
+      "Data": "11/08/2025",
+      "Ganhos": -170.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "12/08/2025",
+      "Ganhos": -420.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "13/08/2025",
+      "Ganhos": -644.35,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "14/08/2025",
+      "Ganhos": -200.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "15/08/2025",
+      "Ganhos": 3641.05,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "16/08/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "17/08/2025",
+      "Ganhos": 8.25,
+      "Jogos": 40,
+      "Rake": 184.13,
+      "Saldo": 2214.95
+    },
+    {
+      "Data": "18/08/2025",
+      "Ganhos": -300.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "19/08/2025",
+      "Ganhos": -427.4,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "20/08/2025",
+      "Ganhos": 353.05,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "21/08/2025",
+      "Ganhos": 606.8,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "22/08/2025",
+      "Ganhos": -230.05,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "23/08/2025",
+      "Ganhos": -124.75,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "24/08/2025",
+      "Ganhos": 1209.2,
+      "Jogos": 71,
+      "Rake": 249.38,
+      "Saldo": 1086.85
+    },
+    {
+      "Data": "25/08/2025",
+      "Ganhos": -183.55,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "26/08/2025",
+      "Ganhos": -438.9,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "27/08/2025",
+      "Ganhos": -510.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "28/08/2025",
+      "Ganhos": -214.45,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "29/08/2025",
+      "Ganhos": -14.8,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "30/08/2025",
+      "Ganhos": -80.6,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "31/08/2025",
+      "Ganhos": -32.05,
+      "Jogos": 61,
+      "Rake": 217.5,
+      "Saldo": -1474.35
+    },
+    {
+      "Data": "01/09/2025",
+      "Ganhos": -134.2,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "02/09/2025",
+      "Ganhos": 109.35,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "03/09/2025",
+      "Ganhos": -368.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "04/09/2025",
+      "Ganhos": 504.75,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "05/09/2025",
+      "Ganhos": -65.85,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "06/09/2025",
+      "Ganhos": -97.55,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "07/09/2025",
+      "Ganhos": 199.35,
+      "Jogos": 53,
+      "Rake": 183.75,
+      "Saldo": 147.85
+    },
+    {
+      "Data": "08/09/2025",
+      "Ganhos": -330.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "09/09/2025",
+      "Ganhos": -150.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "10/09/2025",
+      "Ganhos": 350.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "11/09/2025",
+      "Ganhos": -124.1,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "12/09/2025",
+      "Ganhos": 252.05,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "13/09/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "14/09/2025",
+      "Ganhos": -1043.5,
+      "Jogos": 46,
+      "Rake": 206.06,
+      "Saldo": -1045.55
+    },
+    {
+      "Data": "15/09/2025",
+      "Ganhos": -375.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "16/09/2025",
+      "Ganhos": -210.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "17/09/2025",
+      "Ganhos": -168.6,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "18/09/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "19/09/2025",
+      "Ganhos": -152.9,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "20/09/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "21/09/2025",
+      "Ganhos": 0.0,
+      "Jogos": 29,
+      "Rake": 88.13,
+      "Saldo": -906.5
+    },
+    {
+      "Data": "22/09/2025",
+      "Ganhos": -164.6,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "23/09/2025",
+      "Ganhos": -134.4,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "24/09/2025",
+      "Ganhos": -600.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "25/09/2025",
+      "Ganhos": 135.65,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "26/09/2025",
+      "Ganhos": -350.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "27/09/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "28/09/2025",
+      "Ganhos": 170.7,
+      "Jogos": 54,
+      "Rake": 176.25,
+      "Saldo": -942.65
+    },
+    {
+      "Data": "29/09/2025",
+      "Ganhos": 5435.7,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "30/09/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "01/10/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "02/10/2025",
+      "Ganhos": -16.05,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "03/10/2025",
+      "Ganhos": -159.6,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "04/10/2025",
+      "Ganhos": -83.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "05/10/2025",
+      "Ganhos": 2887.4,
+      "Jogos": 52,
+      "Rake": 186.0,
+      "Saldo": 8064.45
+    },
+    {
+      "Data": "06/10/2025",
+      "Ganhos": -713.45,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "07/10/2025",
+      "Ganhos": 2262.6,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "08/10/2025",
+      "Ganhos": 47.95,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "09/10/2025",
+      "Ganhos": -30.3,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "10/10/2025",
+      "Ganhos": -297.55,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "11/10/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "12/10/2025",
+      "Ganhos": -89.95,
+      "Jogos": 33,
+      "Rake": 245.63,
+      "Saldo": 1179.3
+    },
+    {
+      "Data": "13/10/2025",
+      "Ganhos": -174.3,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "14/10/2025",
+      "Ganhos": -598.65,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "15/10/2025",
+      "Ganhos": -740.5,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "16/10/2025",
+      "Ganhos": 19.45,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "17/10/2025",
+      "Ganhos": -576.25,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "18/10/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "19/10/2025",
+      "Ganhos": 175.8,
+      "Jogos": 35,
+      "Rake": 250.88,
+      "Saldo": -1894.45
+    },
+    {
+      "Data": "20/10/2025",
+      "Ganhos": 279.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "21/10/2025",
+      "Ganhos": -378.55,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "22/10/2025",
+      "Ganhos": -315.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "23/10/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "24/10/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "25/10/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "26/10/2025",
+      "Ganhos": 750.0,
+      "Jogos": 10,
+      "Rake": 82.13,
+      "Saldo": 335.45
+    },
+    {
+      "Data": "27/10/2025",
+      "Ganhos": -114.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "28/10/2025",
+      "Ganhos": 18.25,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "29/10/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "30/10/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "31/10/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "01/11/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "02/11/2025",
+      "Ganhos": 0.0,
+      "Jogos": 12,
+      "Rake": 33.75,
+      "Saldo": -95.75
+    },
+    {
+      "Data": "03/11/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "04/11/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "05/11/2025",
+      "Ganhos": -180.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "06/11/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "07/11/2025",
+      "Ganhos": -70.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "08/11/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "09/11/2025",
+      "Ganhos": -650.4,
+      "Jogos": 16,
+      "Rake": 105.75,
+      "Saldo": -900.4
+    },
+    {
+      "Data": "10/11/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "11/11/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "12/11/2025",
+      "Ganhos": 80.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "13/11/2025",
+      "Ganhos": -187.5,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "14/11/2025",
+      "Ganhos": -525.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "15/11/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "16/11/2025",
+      "Ganhos": -300.0,
+      "Jogos": 21,
+      "Rake": 106.88,
+      "Saldo": -932.5
+    },
+    {
+      "Data": "17/11/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "18/11/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "19/11/2025",
+      "Ganhos": 100.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "20/11/2025",
+      "Ganhos": -111.35,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "21/11/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "22/11/2025",
+      "Ganhos": 4260.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "23/11/2025",
+      "Ganhos": -15.85,
+      "Jogos": 22,
+      "Rake": 116.25,
+      "Saldo": 4232.8
+    },
+    {
+      "Data": "24/11/2025",
+      "Ganhos": -100.85,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "25/11/2025",
+      "Ganhos": -304.4,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "26/11/2025",
+      "Ganhos": -96.9,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "27/11/2025",
+      "Ganhos": -264.3,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "28/11/2025",
+      "Ganhos": -2.2,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "29/11/2025",
+      "Ganhos": -118.25,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "30/11/2025",
+      "Ganhos": 0.0,
+      "Jogos": 51,
+      "Rake": 171.0,
+      "Saldo": -886.9
+    },
+    {
+      "Data": "01/12/2025",
+      "Ganhos": -20.35,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "02/12/2025",
+      "Ganhos": -15.05,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "03/12/2025",
+      "Ganhos": -303.45,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "04/12/2025",
+      "Ganhos": -282.7,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "05/12/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "06/12/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "07/12/2025",
+      "Ganhos": 77.9,
+      "Jogos": 49,
+      "Rake": 170.7,
+      "Saldo": -543.65
+    },
+    {
+      "Data": "08/12/2025",
+      "Ganhos": -15.45,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "09/12/2025",
+      "Ganhos": 1810.15,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "10/12/2025",
+      "Ganhos": -610.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "11/12/2025",
+      "Ganhos": -342.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "12/12/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "13/12/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "14/12/2025",
+      "Ganhos": 0.0,
+      "Jogos": 32,
+      "Rake": 126.0,
+      "Saldo": 842.7
+    },
+    {
+      "Data": "15/12/2025",
+      "Ganhos": -67.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "16/12/2025",
+      "Ganhos": -74.2,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "17/12/2025",
+      "Ganhos": -229.6,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "18/12/2025",
+      "Ganhos": -278.85,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "19/12/2025",
+      "Ganhos": 0.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "20/12/2025",
+      "Ganhos": 464.65,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "21/12/2025",
+      "Ganhos": -346.0,
+      "Jogos": 75,
+      "Rake": 267.75,
+      "Saldo": -531.0
+    },
+    {
+      "Data": "22/12/2025",
+      "Ganhos": -75.1,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "23/12/2025",
+      "Ganhos": -190.2,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "24/12/2025",
+      "Ganhos": -70.5,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "25/12/2025",
+      "Ganhos": -16.9,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "26/12/2025",
+      "Ganhos": 156.4,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "27/12/2025",
+      "Ganhos": -206.1,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "28/12/2025",
+      "Ganhos": -463.95,
+      "Jogos": 72,
+      "Rake": 216.0,
+      "Saldo": -866.35
+    },
+    {
+      "Data": "29/12/2025",
+      "Ganhos": 9.8,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "30/12/2025",
+      "Ganhos": -219.15,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "31/12/2025",
+      "Ganhos": 489.45,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "01/01/2026",
+      "Ganhos": -282.8,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "02/01/2026",
+      "Ganhos": -98.15,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "03/01/2026",
+      "Ganhos": -79.6,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "04/01/2026",
+      "Ganhos": -680.9,
+      "Jogos": 111,
+      "Rake": 341.25,
+      "Saldo": -861.35
+    },
+    {
+      "Data": "05/01/2026",
+      "Ganhos": -108.4,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "06/01/2026",
+      "Ganhos": 141.6,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "07/01/2026",
+      "Ganhos": -280.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    },
+    {
+      "Data": "07/01/2026",
+      "Ganhos": -280.0,
+      "Jogos": 0,
+      "Rake": 0.0,
+      "Saldo": 0.0
+    }
+  ]
+}
