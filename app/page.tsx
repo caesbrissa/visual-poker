@@ -9,7 +9,7 @@ export default function Dashboard() {
   const [periodoTabela, setPeriodoTabela] = useState('todos');
   const [periodoGrafico, setPeriodoGrafico] = useState('todos');
 
-  const filtrarPorPeriodo = (sessoes, periodo) => {
+    const filtrarPorPeriodo = (sessoes: any[], periodo: string) => {
     if (periodo === 'todos') return sessoes;
     const hoje = new Date();
     const dataLimite = new Date();
@@ -137,7 +137,7 @@ export default function Dashboard() {
     return Object.values(meses).slice(-12);
   }, [sessoes]);
 
-  const fM = (n) => {
+  const fM = (n: number) => {
     return new Intl.NumberFormat('pt-BR', {
       style: 'currency',
       currency: 'BRL',
@@ -146,14 +146,14 @@ export default function Dashboard() {
     }).format(n);
   };
 
-  const formatYAxis = (value) => {
+  const formatYAxis = (value: number) => {
     const absValue = Math.abs(value);
     if (absValue >= 1000000) return `R$${(value / 1000000).toFixed(1)}M`;
     else if (absValue >= 1000) return `R$${(value / 1000).toFixed(0)}k`;
     return `R$${Math.round(value)}`;
   };
 
-  const CustomTooltip = ({ active, payload }) => {
+  const CustomTooltip = ({ active, payload }: any) => {
     if (active && payload && payload.length) {
       const data = payload[0].payload;
       return (
@@ -347,7 +347,7 @@ export default function Dashboard() {
   );
 }
 
-function Card({ title, value, color }) {
+function Card({ title, value, color }: any) {
   return (
     <div style={{ background: 'var(--bg-card, #0a0a0a)', padding: '20px', borderRadius: '15px', border: '1px solid var(--border-color, #1a1a1a)', transition: 'transform 0.2s, border-color 0.2s, background 0.3s ease', cursor: 'pointer' }} onMouseEnter={(e) => { e.currentTarget.style.transform = 'translateY(-2px)'; e.currentTarget.style.borderColor = '#2a2a2a'; }} onMouseLeave={(e) => { e.currentTarget.style.transform = 'translateY(0)'; e.currentTarget.style.borderColor = 'var(--border-color, #1a1a1a)'; }}>
       <p style={{ color: '#444', fontSize: '10px', fontWeight: 'bold', textTransform: 'uppercase', margin: 0, letterSpacing: '1px' }}>{title}</p>
@@ -356,7 +356,7 @@ function Card({ title, value, color }) {
   );
 }
 
-function MiniCard({ title, value, color, subtitle }) {
+function MiniCard({ title, value, color, subtitle }: any) {
   return (
     <div style={{ background: 'var(--bg-card, #0a0a0a)', padding: '15px', borderRadius: '12px', border: '1px solid var(--border-color, #1a1a1a)', transition: 'all 0.3s ease' }}>
       <p style={{ color: '#555', fontSize: '9px', fontWeight: 'bold', textTransform: 'uppercase', margin: 0, letterSpacing: '0.5px' }}>{title}</p>
