@@ -4,12 +4,41 @@ import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContai
 import { ThemeToggle } from '@/components/theme-toggle';
 import dataFile from './data.json';
 
+interface Sessao {
+  Data: string;
+  Ganhos: number;
+  Jogos: number;
+  Rake: number;
+  Saldo: number;
+}
+
+interface DataFile {
+  jogador: string;
+  makeupAtual: number;
+  sessoes: Sessao[];
+}
+
+interface MesesMap {
+  [key: string]: number;
+}
+
+interface GanhosPorMes {
+  mes: string;
+  ganhos: number;
+  jogos: number;
+  rake: number;
+}
+
+interface MesesGanhosMap {
+  [key: string]: GanhosPorMes;
+}
+
 export default function Dashboard() {
-  const { jogador, makeupAtual, sessoes } = dataFile || { jogador: "Jogador", makeupAtual: 0, sessoes: [] };
+  const { jogador, makeupAtual, sessoes } = dataFile as DataFile || { jogador: "Jogador", makeupAtual: 0, sessoes: [] };
   const [periodoTabela, setPeriodoTabela] = useState('todos');
   const [periodoGrafico, setPeriodoGrafico] = useState('todos');
 
-    const filtrarPorPeriodo = (sessoes: any[], periodo: string) => {
+  const filtrarPorPeriodo = (sessoes: Sessao[], periodo: string): Sessao[] => {
     if (periodo === 'todos') return sessoes;
     const hoje = new Date();
     const dataLimite = new Date();
@@ -22,7 +51,7 @@ export default function Dashboard() {
     }
     return sessoes.filter(s => {
       const [dia, mes, ano] = s.Data.split('/');
-      const data = new Date(ano, mes - 1, dia);
+      const data = new Date(parseInt(ano), parseInt(mes) - 1, parseInt(dia));
       return data >= dataLimite;
     });
   };
@@ -47,7 +76,7 @@ export default function Dashboard() {
   const calcularStreak = () => {
     if (sessoes.length === 0) return { tipo: 'neutro', valor: 0 };
     let streak = 0;
-    let tipo = 'neutro';
+    let tipo: 'neutro' | 'positivo' | 'negativo' = 'neutro';
     for (let i = sessoes.length - 1; i >= 0; i--) {
       if (sessoes[i].Ganhos > 0) {
         if (tipo === 'neutro') tipo = 'positivo';
@@ -67,7 +96,7 @@ export default function Dashboard() {
   const streak = calcularStreak();
 
   const melhorMes = useMemo(() => {
-    const meses = {};
+    const meses: MesesMap = {};
     sessoes.forEach(s => {
       const [dia, mes, ano] = s.Data.split('/');
       const chave = `${mes}/${ano}`;
@@ -76,7 +105,7 @@ export default function Dashboard() {
     });
     let melhor = { mes: '-', valor: 0 };
     Object.entries(meses).forEach(([mes, valor]) => {
-      if (valor > melhor.valor) melhor = { mes, valor };
+      if (valor > melhor.valor) melhor = { mes, valor: valor as number };
     });
     return melhor;
   }, [sessoes]);
@@ -123,7 +152,7 @@ export default function Dashboard() {
   ];
 
   const ganhosPorMes = useMemo(() => {
-    const meses = {};
+    const meses: MesesGanhosMap = {};
     sessoes.forEach(s => {
       const [dia, mes, ano] = s.Data.split('/');
       const chave = `${mes}/${ano}`;
@@ -347,7 +376,13 @@ export default function Dashboard() {
   );
 }
 
-function Card({ title, value, color }: any) {
+interface CardProps {
+  title: string;
+  value: string;
+  color: string;
+}
+
+function Card({ title, value, color }: CardProps) {
   return (
     <div style={{ background: 'var(--bg-card, #0a0a0a)', padding: '20px', borderRadius: '15px', border: '1px solid var(--border-color, #1a1a1a)', transition: 'transform 0.2s, border-color 0.2s, background 0.3s ease', cursor: 'pointer' }} onMouseEnter={(e) => { e.currentTarget.style.transform = 'translateY(-2px)'; e.currentTarget.style.borderColor = '#2a2a2a'; }} onMouseLeave={(e) => { e.currentTarget.style.transform = 'translateY(0)'; e.currentTarget.style.borderColor = 'var(--border-color, #1a1a1a)'; }}>
       <p style={{ color: '#444', fontSize: '10px', fontWeight: 'bold', textTransform: 'uppercase', margin: 0, letterSpacing: '1px' }}>{title}</p>
@@ -356,7 +391,14 @@ function Card({ title, value, color }: any) {
   );
 }
 
-function MiniCard({ title, value, color, subtitle }: any) {
+interface MiniCardProps {
+  title: string;
+  value: string;
+  color: string;
+  subtitle?: string;
+}
+
+function MiniCard({ title, value, color, subtitle }: MiniCardProps) {
   return (
     <div style={{ background: 'var(--bg-card, #0a0a0a)', padding: '15px', borderRadius: '12px', border: '1px solid var(--border-color, #1a1a1a)', transition: 'all 0.3s ease' }}>
       <p style={{ color: '#555', fontSize: '9px', fontWeight: 'bold', textTransform: 'uppercase', margin: 0, letterSpacing: '0.5px' }}>{title}</p>
