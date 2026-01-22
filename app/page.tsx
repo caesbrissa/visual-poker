@@ -14,6 +14,7 @@ interface Sessao {
 interface DataFile {
   jogador: string;
   makeupAtual: number;
+  profitBruto: number;
   sessoes: Sessao[];
   ultimaAtualizacao?: string;
 }
@@ -71,9 +72,10 @@ export default function Dashboard() {
   }, []);
 
   // Garantir que sempre temos dados válidos (mesmo que vazios) para manter hooks consistentes
-  const { jogador, makeupAtual, sessoes, ultimaAtualizacao } = dataFile || {
+  const { jogador, makeupAtual, profitBruto, sessoes, ultimaAtualizacao } = dataFile || {
     jogador: "Jogador",
     makeupAtual: 0,
+    profitBruto: 0,
     sessoes: [],
     ultimaAtualizacao: new Date().toISOString()
   };
@@ -99,10 +101,11 @@ export default function Dashboard() {
   const sessoesFiltradas = useMemo(() => filtrarPorPeriodo(sessoes, periodoGrafico), [sessoes, periodoGrafico]);
   const sessoesTabela = useMemo(() => filtrarPorPeriodo(sessoes, periodoTabela), [sessoes, periodoTabela]);
 
-  const totalGanhos = sessoes.reduce((acc, curr) => acc + curr.Ganhos, 0);
+  // Usar profitBruto da célula J3 ao invés de calcular
+  const totalGanhos = profitBruto;
   const totalJogos = sessoes.reduce((acc, curr) => acc + curr.Jogos, 0);
   const totalRake = sessoes.reduce((acc, curr) => acc + curr.Rake, 0);
-  const saldoFinal = makeupAtual;
+  const saldoFinal = makeupAtual; // Já vem da célula I3
   const sessoesPositivas = sessoes.filter(s => s.Ganhos > 0).length;
   const sessoesNegativas = sessoes.filter(s => s.Ganhos < 0).length;
   const winRate = sessoes.length > 0 ? (sessoesPositivas / sessoes.length * 100) : 0;
@@ -111,6 +114,10 @@ export default function Dashboard() {
   const maiorGanho = Math.max(...sessoes.map(s => s.Ganhos), 0);
   const maiorPerda = Math.min(...sessoes.map(s => s.Ganhos), 0);
   const rakeBack = totalRake * 0.25;
+  
+  // ROI correto do poker: (Lucro Total / Investimento Total) × 100
+  // Onde Investimento Total = Total de Rake (buy-ins)
+  // e Lucro Total = Profit Bruto
   const roi = totalRake > 0 ? (totalGanhos / totalRake) * 100 : 0;
 
   const calcularStreak = () => {
@@ -158,6 +165,7 @@ export default function Dashboard() {
     return sessoes.map(s => {
       rakeAcumulado += s.Rake;
       ganhosAcumulados += s.Ganhos;
+      // ROI do poker: (Lucro / Investimento) × 100
       const roiAtual = rakeAcumulado > 0 ? (ganhosAcumulados / rakeAcumulado) * 100 : 0;
       return { Data: s.Data, ROI: roiAtual };
     });
@@ -346,7 +354,7 @@ export default function Dashboard() {
         <MiniCard title="Rake Back" value={fM(rakeBack)} color="#84cc16" />
         <MiniCard title="Maior Ganho" value={fM(maiorGanho)} color="#10b981" />
         <MiniCard title="Maior Perda" value={fM(maiorPerda)} color="#ef4444" />
-        <MiniCard title="ROI" value={`${roi.toFixed(1)}%`} color={roi >= 0 ? "#10b981" : "#ef4444"} subtitle="Retorno/Rake" />
+        <MiniCard title="ROI" value={`${roi.toFixed(1)}%`} color={roi >= 0 ? "#10b981" : "#ef4444"} subtitle="Lucro/Investimento" />
         <MiniCard title="Sequência Atual" value={streak.tipo === 'positivo' ? `+${streak.valor}` : streak.tipo === 'negativo' ? `-${streak.valor}` : '0'} color={streak.tipo === 'positivo' ? "#10b981" : streak.tipo === 'negativo' ? "#ef4444" : "#666"} subtitle={streak.tipo === 'positivo' ? 'Wins seguidos' : streak.tipo === 'negativo' ? 'Losses seguidos' : 'Neutro'} />
         <MiniCard title="Melhor Mês" value={fM(melhorMes.valor)} color="#eab308" subtitle={melhorMes.mes} />
         <MiniCard title="Dias Jogados" value={diasJogados.toString()} color="#3b82f6" subtitle="Sessões ativas" />
@@ -378,7 +386,7 @@ export default function Dashboard() {
 
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(450px, 1fr))', gap: '20px', marginBottom: '30px' }}>
         <div style={{ background: 'var(--bg-card, #0a0a0a)', padding: '20px', borderRadius: '15px', border: '1px solid var(--border-color, #1a1a1a)', transition: 'all 0.3s ease' }}>
-          <h3 style={{ color: '#444', fontSize: '12px', textTransform: 'uppercase', marginBottom: '15px', letterSpacing: '1px' }}>EVOLUÇÃO DO ROI (RETORNO SOBRE RAKE)</h3>
+          <h3 style={{ color: '#444', fontSize: '12px', textTransform: 'uppercase', marginBottom: '15px', letterSpacing: '1px' }}>EVOLUÇÃO DO ROI</h3>
           <div style={{ height: '300px' }}>
             <ResponsiveContainer width="100%" height="100%">
               <LineChart data={dadosROI}>
@@ -390,7 +398,7 @@ export default function Dashboard() {
               </LineChart>
             </ResponsiveContainer>
           </div>
-          <p style={{ fontSize: '11px', color: '#666', marginTop: '10px', textAlign: 'center' }}>ROI = (Ganhos ÷ Rake) × 100 | Mostra eficiência do jogo</p>
+          <p style={{ fontSize: '11px', color: '#666', marginTop: '10px', textAlign: 'center' }}>ROI = (Lucro ÷ Investimento) × 100 | Retorno sobre investimento total</p>
         </div>
 
         <div style={{ background: 'var(--bg-card, #0a0a0a)', padding: '20px', borderRadius: '15px', border: '1px solid var(--border-color, #1a1a1a)', transition: 'all 0.3s ease' }}>

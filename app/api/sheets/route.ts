@@ -3,6 +3,44 @@ import { NextResponse } from 'next/server';
 
 export const revalidate = 0; // Desabilita cache
 
+// Função auxiliar para processar números (incluindo negativos)
+function processarNumero(valor: string | undefined): number {
+  if (!valor) return 0;
+  
+  const valorStr = valor.toString().trim();
+  
+  // Detectar se é negativo
+  const isNegativo = valorStr.includes('-') || valorStr.startsWith('(');
+  
+  // Remover símbolos de moeda e espaços
+  let numero = valorStr.replace(/[R$\s]/g, '');
+  
+  // No formato brasileiro: 93.451,02
+  // Precisamos trocar . por nada (separador de milhar) e , por . (decimal)
+  
+  // Se tem vírgula E ponto, é formato brasileiro (93.451,02)
+  if (numero.includes('.') && numero.includes(',')) {
+    numero = numero.replace(/\./g, ''); // Remove pontos (milhares)
+    numero = numero.replace(',', '.'); // Vírgula vira ponto (decimal)
+  }
+  // Se só tem vírgula, é formato brasileiro sem milhar (237,11)
+  else if (numero.includes(',')) {
+    numero = numero.replace(',', '.');
+  }
+  // Se só tem ponto, pode ser formato americano OU milhar sem decimal
+  // Vamos assumir que é formato americano se tiver mais de 2 casas após o ponto
+  
+  // Converter para número
+  let resultado = parseFloat(numero) || 0;
+  
+  // Aplicar sinal negativo se necessário
+  if (isNegativo && resultado > 0) {
+    resultado = -resultado;
+  }
+  
+  return resultado;
+}
+
 export async function GET() {
   try {
     // Validar variáveis de ambiente
@@ -13,12 +51,10 @@ export async function GET() {
     // Processar a chave privada corretamente
     let privateKey = process.env.GOOGLE_SHEETS_PRIVATE_KEY;
     
-    // Se a chave vier com \\n literal, substituir por quebras de linha reais
     if (privateKey.includes('\\n')) {
       privateKey = privateKey.replace(/\\n/g, '\n');
     }
     
-    // Remover espaços extras e aspas duplas/simples das pontas
     privateKey = privateKey.trim().replace(/^["']|["']$/g, '');
 
     console.log('Autenticando com Google Sheets...');
@@ -37,10 +73,10 @@ export async function GET() {
 
     console.log('Buscando dados da aba Sbrissa...');
 
-    // Primeiro, buscar os totais da linha 3 (cabeçalho)
+    // Buscar totais da linha 3
     const headerResponse = await sheets.spreadsheets.values.get({
       spreadsheetId,
-      range: 'Sbrissa!A3:J3', // Linha 3 com os totais
+      range: 'Sbrissa!A3:J3',
     });
 
     const headerRow = headerResponse.data.values?.[0] || [];
@@ -48,16 +84,16 @@ export async function GET() {
     // Extrair valores da linha 3:
     // I3 = MakeUp Atual (índice 8)
     // J3 = Profit/Loss (índice 9)
-    const makeupAtualHeader = parseFloat(headerRow[8]?.toString().replace(/[^\d.,-]/g, '').replace(',', '.')) || 0;
-    const profitLossHeader = parseFloat(headerRow[9]?.toString().replace(/[^\d.,-]/g, '').replace(',', '.')) || 0;
+    const makeupAtualHeader = processarNumero(headerRow[8]);
+    const profitLossHeader = processarNumero(headerRow[9]);
 
-    console.log(`Makeup Atual (I3): ${makeupAtualHeader}`);
-    console.log(`Profit/Loss (J3): ${profitLossHeader}`);
+    console.log(`Valor I3: "${headerRow[8]}" → ${makeupAtualHeader}`);
+    console.log(`Valor J3: "${headerRow[9]}" → ${profitLossHeader}`);
 
-    // Agora buscar dados das sessões (a partir da linha 7)
+    // Buscar dados das sessões
     const response = await sheets.spreadsheets.values.get({
       spreadsheetId,
-      range: 'Sbrissa!A7:J1000', // Pegar até linha 1000 para garantir todos os dados
+      range: 'Sbrissa!A7:I1000',
     });
 
     const rows = response.data.values;
@@ -71,32 +107,19 @@ export async function GET() {
 
     console.log(`Processando ${rows.length} linhas de dados...`);
 
-    // Processar dados das sessões
+    // Processar sessões
     const sessoes: any[] = [];
 
     for (let i = 0; i < rows.length; i++) {
       const row = rows[i];
       
-      // Pular linhas vazias (sem data)
       if (!row[0] || row[0].toString().trim() === '') continue;
       
       const data = row[0]?.toString().trim();
-      
-      // Mapear as colunas corretamente:
-      // A (índice 0): Data
-      // B (índice 1): MakeUp Inicial  
-      // C (índice 2): Ganhos/Perdas Individual
-      // D (índice 3): Total de Jogos
-      // E (índice 4): Presença Aula
-      // F (índice 5): Total de Rake
-      // G (índice 6): Rakeback
-      // H (índice 7): Total Ganhos
-      // I (índice 8): Saldo MakeUp
-      
-      const ganhosPerdas = parseFloat(row[2]?.toString().replace(/[^\d.,-]/g, '').replace(',', '.')) || 0;
-      const jogos = parseInt(row[3]?.toString().replace(/\D/g, '')) || 0;
-      const rake = parseFloat(row[5]?.toString().replace(/[^\d.,-]/g, '').replace(',', '.')) || 0;
-      const saldoMakeup = parseFloat(row[8]?.toString().replace(/[^\d.,-]/g, '').replace(',', '.')) || 0;
+      const ganhosPerdas = processarNumero(row[2]); // Coluna C
+      const jogos = parseInt(row[3]?.toString().replace(/\D/g, '')) || 0; // Coluna D
+      const rake = processarNumero(row[5]); // Coluna F
+      const saldoMakeup = processarNumero(row[8]); // Coluna I
 
       sessoes.push({
         Data: data,
@@ -107,14 +130,14 @@ export async function GET() {
       });
     }
 
-    console.log(`${sessoes.length} sessões processadas com sucesso`);
-    console.log(`Usando Makeup Atual da célula I3: ${makeupAtualHeader}`);
-    console.log(`Usando Profit/Loss da célula J3: ${profitLossHeader}`);
+    console.log(`${sessoes.length} sessões processadas`);
+    console.log(`Makeup Atual (I3): ${makeupAtualHeader}`);
+    console.log(`Profit/Loss (J3): ${profitLossHeader}`);
 
     const data = {
       jogador: "Carlos Sbrissa",
-      makeupAtual: makeupAtualHeader, // Usar I3
-      profitBruto: profitLossHeader,  // Usar J3 (Profit/Loss)
+      makeupAtual: makeupAtualHeader,
+      profitBruto: profitLossHeader,
       sessoes,
       totalSessoes: sessoes.length,
       ultimaAtualizacao: new Date().toISOString(),
@@ -123,18 +146,16 @@ export async function GET() {
     return NextResponse.json(data);
     
   } catch (error: any) {
-    console.error('Erro detalhado ao buscar dados do Google Sheets:', error);
+    console.error('Erro ao buscar dados:', error);
     
     return NextResponse.json(
       { 
         error: 'Erro ao buscar dados do Google Sheets',
         message: error.message,
-        details: error.stack,
         dicas: [
-          '1. Verifique se as variáveis de ambiente estão configuradas corretamente',
-          '2. Certifique-se que a planilha foi compartilhada com o email da service account',
-          '3. Confirme que a aba se chama exatamente "Sbrissa"',
-          '4. Verifique se a chave privada está no formato correto (com \\n para quebras de linha)'
+          '1. Verifique se as variáveis de ambiente estão configuradas',
+          '2. Certifique-se que a planilha foi compartilhada com o service account',
+          '3. Confirme que a aba se chama "Sbrissa"'
         ]
       },
       { status: 500 }
