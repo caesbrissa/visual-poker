@@ -92,6 +92,7 @@ export async function GET() {
     // H3 = Rakeback Acima da Meta (35%)
     // I3 = MakeUp Atual (-3.237,11)
     // J3 = Profit/Loss (93.451,02)
+    // K3 = RETA ATUAL (4)
     
     const dealPlayer = headerRow[2]?.toString().trim() || '0%'; // C3
     const totalJogos = parseInt(headerRow[3]?.toString().replace(/\D/g, '')) || 0; // D3
@@ -101,11 +102,13 @@ export async function GET() {
     const rakebackAcimaMeta = headerRow[7]?.toString().trim() || '35%'; // H3
     const makeupAtualHeader = processarNumero(headerRow[8]); // I3
     const profitLossHeader = processarNumero(headerRow[9]); // J3
+    const retaAtual = parseInt(headerRow[10]?.toString().replace(/\D/g, '')) || 0; // K3
 
     console.log(`Deal Player (C3): ${dealPlayer}`);
     console.log(`Total Jogos (D3): ${totalJogos}`);
     console.log(`Presença Aula (E3): ${totalPresencaAula}`);
     console.log(`Total Rake (F3): ${totalRake}`);
+    console.log(`Reta Atual (K3): ${retaAtual}`);
     console.log(`Makeup Atual (I3): ${makeupAtualHeader}`);
     console.log(`Profit/Loss (J3): ${profitLossHeader}`);
 
@@ -156,8 +159,12 @@ export async function GET() {
     // Contar quantas vezes sacou cada tipo de rakeback
     const countRakeback25 = sessoes.filter(s => s.RakebackAbaixo && s.RakebackAbaixo !== '').length;
     const countRakeback35 = sessoes.filter(s => s.RakebackAcima && s.RakebackAcima !== '').length;
+    
+    // Contar sessões ativas (onde jogou de verdade - Ganhos diferente de 0)
+    const sessoesAtivas = sessoes.filter(s => s.Ganhos !== 0).length;
 
     console.log(`${sessoes.length} sessões processadas`);
+    console.log(`Sessões ativas (jogou): ${sessoesAtivas}`);
     console.log(`Rakeback 25% sacado: ${countRakeback25} vezes`);
     console.log(`Rakeback 35% sacado: ${countRakeback35} vezes`);
     const data = {
@@ -168,10 +175,12 @@ export async function GET() {
       totalJogos: totalJogos, // Valor correto da célula D3
       presencaAula: totalPresencaAula, // Valor da célula E3
       dealPlayer: dealPlayer, // Valor da célula C3
+      retaAtual: retaAtual, // Valor da célula K3
       rakebackAbaixoMeta: rakebackAbaixoMeta, // 25%
       rakebackAcimaMeta: rakebackAcimaMeta, // 35%
       countRakeback25: countRakeback25, // Quantas vezes sacou 25%
       countRakeback35: countRakeback35, // Quantas vezes sacou 35%
+      sessoesAtivas: sessoesAtivas, // Dias onde realmente jogou
       sessoes,
       totalSessoes: sessoes.length,
       ultimaAtualizacao: new Date().toISOString(),

@@ -19,10 +19,12 @@ interface DataFile {
   totalJogos: number;
   presencaAula: number;
   dealPlayer: string;
+  retaAtual: number;
   rakebackAbaixoMeta: string;
   rakebackAcimaMeta: string;
   countRakeback25: number;
   countRakeback35: number;
+  sessoesAtivas: number;
   sessoes: Sessao[];
   ultimaAtualizacao?: string;
 }
@@ -80,7 +82,7 @@ export default function Dashboard() {
   }, []);
 
   // Garantir que sempre temos dados válidos (mesmo que vazios) para manter hooks consistentes
-  const { jogador, makeupAtual, profitBruto, totalRake, totalJogos, presencaAula, dealPlayer, rakebackAbaixoMeta, rakebackAcimaMeta, countRakeback25, countRakeback35, sessoes, ultimaAtualizacao } = dataFile || {
+  const { jogador, makeupAtual, profitBruto, totalRake, totalJogos, presencaAula, dealPlayer, retaAtual, rakebackAbaixoMeta, rakebackAcimaMeta, countRakeback25, countRakeback35, sessoesAtivas, sessoes, ultimaAtualizacao } = dataFile || {
     jogador: "Jogador",
     makeupAtual: 0,
     profitBruto: 0,
@@ -88,10 +90,12 @@ export default function Dashboard() {
     totalJogos: 0,
     presencaAula: 0,
     dealPlayer: "0%",
+    retaAtual: 0,
     rakebackAbaixoMeta: "25%",
     rakebackAcimaMeta: "35%",
     countRakeback25: 0,
     countRakeback35: 0,
+    sessoesAtivas: 0,
     sessoes: [],
     ultimaAtualizacao: new Date().toISOString()
   };
@@ -145,6 +149,33 @@ export default function Dashboard() {
   
   // Dias jogados = contar datas únicas nas sessões
   const diasJogados = new Set(sessoes.map(s => s.Data)).size;
+  
+  // Cards extras com análises avançadas
+  
+  // 1. Média de Rake por Dia (intensidade de jogo)
+  const mediaRakePorDia = diasJogados > 0 ? totalRakeReal / diasJogados : 0;
+  
+  // 2. Ticket Médio (rake médio por jogo - buy-in médio)
+  const ticketMedio = totalJogosReal > 0 ? totalRakeReal / totalJogosReal : 0;
+  
+  // 3. Maior sequência positiva (motivacional)
+  const calcularMaiorStreak = () => {
+    let maiorStreak = 0;
+    let streakAtual = 0;
+    
+    for (let i = 0; i < sessoes.length; i++) {
+      if (sessoes[i].Ganhos > 0) {
+        streakAtual++;
+        maiorStreak = Math.max(maiorStreak, streakAtual);
+      } else if (sessoes[i].Ganhos < 0) {
+        streakAtual = 0;
+      }
+    }
+    
+    return maiorStreak;
+  };
+  
+  const maiorStreakPositivo = calcularMaiorStreak();
 
   const calcularStreak = () => {
     if (sessoes.length === 0) return { tipo: 'neutro', valor: 0, texto: 'Sem dados' };
@@ -376,20 +407,26 @@ export default function Dashboard() {
       </div>
 
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(160px, 1fr))', gap: '15px', marginBottom: '30px' }}>
-        <MiniCard title="Win Rate" value={`${winRate.toFixed(1)}%`} color="#8b5cf6" />
-        <MiniCard title="Média/Jogo" value={fM(mediaPorJogo)} color="#ec4899" />
-        <MiniCard title="Média/Sessão" value={fM(mediaPorSessao)} color="#06b6d4" />
-        <MiniCard title="Rake Back 25%" value={fM(rakeBack)} color="#84cc16" subtitle={`${totalRakeReal > 0 ? '25% do Rake' : ''}`} />
+        <MiniCard title="Win Rate" value={`${winRate.toFixed(1)}%`} color="#8b5cf6" subtitle="Taxa de vitória" />
+        <MiniCard title="Média/Jogo" value={fM(mediaPorJogo)} color="#ec4899" subtitle="Profit por jogo" />
+        <MiniCard title="Média/Sessão" value={fM(mediaPorSessao)} color="#06b6d4" subtitle="Profit por dia" />
+        <MiniCard title="Rake Back 25%" value={fM(rakeBack)} color="#84cc16" subtitle="25% do Rake Total" />
+        <MiniCard title="Rake Back 35%" value={fM(totalRakeReal * 0.35)} color="#22c55e" subtitle="35% do Rake Total" />
         <MiniCard title="Presença Aulas" value={presencaAula.toString()} color="#f97316" subtitle="Total de aulas" />
         <MiniCard title="Deal Player" value={dealPlayer} color="#06b6d4" subtitle="Porcentagem" />
-        <MiniCard title="Maior Ganho" value={fM(maiorGanho)} color="#10b981" />
-        <MiniCard title="Maior Perda" value={fM(maiorPerda)} color="#ef4444" />
+        <MiniCard title="Reta Atual" value={retaAtual.toString()} color="#8b5cf6" subtitle="Célula K3" />
+        <MiniCard title="Maior Ganho" value={fM(maiorGanho)} color="#10b981" subtitle="Melhor sessão" />
+        <MiniCard title="Maior Perda" value={fM(maiorPerda)} color="#ef4444" subtitle="Pior sessão" />
         <MiniCard title="ROI" value={`${roi.toFixed(1)}%`} color={roi >= 0 ? "#10b981" : "#ef4444"} subtitle="Lucro/Rake" />
         <MiniCard title="Últimas 7 Sessões" value={streak.texto} color={streak.tipo === 'positivo' ? "#10b981" : streak.tipo === 'negativo' ? "#ef4444" : "#666"} subtitle={streak.tipo === 'positivo' ? 'Tendência positiva' : streak.tipo === 'negativo' ? 'Tendência negativa' : 'Equilibrado'} />
         <MiniCard title="Rakeback 25%" value={`${countRakeback25}x`} color="#eab308" subtitle="Vezes sacado" />
         <MiniCard title="Rakeback 35%" value={`${countRakeback35}x`} color="#f59e0b" subtitle="Vezes sacado" />
+        <MiniCard title="Sessões Ativas" value={sessoesAtivas.toString()} color="#10b981" subtitle="Dias jogados de fato" />
+        <MiniCard title="Rake/Dia" value={fM(mediaRakePorDia)} color="#3b82f6" subtitle="Intensidade média" />
+        <MiniCard title="Ticket Médio" value={fM(ticketMedio)} color="#a855f7" subtitle="Buy-in médio" />
+        <MiniCard title="Maior Streak +" value={`${maiorStreakPositivo} sessões`} color="#10b981" subtitle="Recorde de vitórias" />
         <MiniCard title="Melhor Mês" value={fM(melhorMes.valor)} color="#eab308" subtitle={melhorMes.mes} />
-        <MiniCard title="Dias Jogados" value={diasJogados.toString()} color="#3b82f6" subtitle="Dias únicos" />
+        <MiniCard title="Dias Únicos" value={diasJogados.toString()} color="#3b82f6" subtitle="Dias diferentes" />
       </div>
 
       <div style={{ background: 'var(--bg-card, #0a0a0a)', padding: '25px', borderRadius: '20px', border: '1px solid var(--border-color, #1a1a1a)', marginBottom: '30px', transition: 'all 0.3s ease' }}>
