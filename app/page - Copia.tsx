@@ -1,7 +1,8 @@
 "use client"
-import React, { useState, useMemo, useEffect } from 'react';
+import React, { useState, useMemo } from 'react';
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, ComposedChart, BarChart, Bar, LineChart, Line, PieChart, Pie, Cell } from 'recharts';
 import { ThemeToggle } from '@/components/theme-toggle';
+import dataFile from './data.json';
 
 interface Sessao {
   Data: string;
@@ -15,7 +16,6 @@ interface DataFile {
   jogador: string;
   makeupAtual: number;
   sessoes: Sessao[];
-  ultimaAtualizacao?: string;
 }
 
 interface MesesMap {
@@ -34,49 +34,9 @@ interface MesesGanhosMap {
 }
 
 export default function Dashboard() {
-  const [dataFile, setDataFile] = useState<DataFile | null>(null);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
+  const { jogador, makeupAtual, sessoes } = dataFile as DataFile || { jogador: "Jogador", makeupAtual: 0, sessoes: [] };
   const [periodoTabela, setPeriodoTabela] = useState('todos');
   const [periodoGrafico, setPeriodoGrafico] = useState('todos');
-
-  // Buscar dados da API
-  useEffect(() => {
-    async function fetchData() {
-      try {
-        setLoading(true);
-        const response = await fetch('/api/sheets');
-        
-        if (!response.ok) {
-          throw new Error('Erro ao carregar dados');
-        }
-        
-        const data = await response.json();
-        setDataFile(data);
-        setError(null);
-      } catch (err) {
-        setError(err instanceof Error ? err.message : 'Erro desconhecido');
-        console.error('Erro ao buscar dados:', err);
-      } finally {
-        setLoading(false);
-      }
-    }
-
-    fetchData();
-    
-    // Atualizar a cada 5 minutos
-    const interval = setInterval(fetchData, 5 * 60 * 1000);
-    
-    return () => clearInterval(interval);
-  }, []);
-
-  // Garantir que sempre temos dados válidos (mesmo que vazios) para manter hooks consistentes
-  const { jogador, makeupAtual, sessoes, ultimaAtualizacao } = dataFile || {
-    jogador: "Jogador",
-    makeupAtual: 0,
-    sessoes: [],
-    ultimaAtualizacao: new Date().toISOString()
-  };
 
   const filtrarPorPeriodo = (sessoes: Sessao[], periodo: string): Sessao[] => {
     if (periodo === 'todos') return sessoes;
@@ -151,6 +111,7 @@ export default function Dashboard() {
   }, [sessoes]);
 
   const diasJogados = sessoes.filter(s => s.Jogos > 0).length;
+  const mediaRakeDia = diasJogados > 0 ? totalRake / diasJogados : 0;
 
   const dadosROI = useMemo(() => {
     let rakeAcumulado = 0;
@@ -238,98 +199,12 @@ export default function Dashboard() {
     return null;
   };
 
-  // Mostrar loading APÓS todos os hooks
-  if (loading) {
-    return (
-      <div style={{ 
-        backgroundColor: '#050505', 
-        color: '#fff', 
-        minHeight: '100vh', 
-        display: 'flex', 
-        alignItems: 'center', 
-        justifyContent: 'center',
-        fontFamily: 'system-ui'
-      }}>
-        <div style={{ textAlign: 'center' }}>
-          <div style={{ 
-            width: '50px', 
-            height: '50px', 
-            border: '3px solid #333', 
-            borderTop: '3px solid #3b82f6', 
-            borderRadius: '50%', 
-            animation: 'spin 1s linear infinite',
-            margin: '0 auto 20px'
-          }}></div>
-          <p style={{ color: '#666' }}>Carregando dados...</p>
-        </div>
-        <style jsx>{`
-          @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-          }
-        `}</style>
-      </div>
-    );
-  }
-
-  // Mostrar erro APÓS todos os hooks
-  if (error) {
-    return (
-      <div style={{ 
-        backgroundColor: '#050505', 
-        color: '#fff', 
-        minHeight: '100vh', 
-        display: 'flex', 
-        alignItems: 'center', 
-        justifyContent: 'center',
-        fontFamily: 'system-ui'
-      }}>
-        <div style={{ 
-          background: '#1a1a1a', 
-          padding: '30px', 
-          borderRadius: '15px', 
-          border: '1px solid #ef4444',
-          maxWidth: '500px'
-        }}>
-          <h2 style={{ color: '#ef4444', marginBottom: '10px' }}>⚠️ Erro ao Carregar Dados</h2>
-          <p style={{ color: '#999' }}>{error}</p>
-          <button 
-            onClick={() => window.location.reload()} 
-            style={{ 
-              marginTop: '20px', 
-              background: '#3b82f6', 
-              color: '#fff', 
-              border: 'none', 
-              padding: '10px 20px', 
-              borderRadius: '8px', 
-              cursor: 'pointer' 
-            }}
-          >
-            Tentar Novamente
-          </button>
-        </div>
-      </div>
-    );
-  }
-
   return (
     <div style={{ backgroundColor: 'var(--bg-primary, #050505)', color: 'var(--text-primary, #fff)', minHeight: '100vh', padding: '40px', fontFamily: 'system-ui', transition: 'background-color 0.3s ease, color 0.3s ease' }}>
       <ThemeToggle />
       <header style={{ marginBottom: '30px' }}>
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-          <div>
-            <h1 style={{ fontSize: '32px', fontWeight: 'bold', marginBottom: '5px' }}>{jogador}</h1>
-            <p style={{ color: 'var(--text-secondary, #666)', fontSize: '14px' }}>Dashboard de Performance - Poker</p>
-          </div>
-          {ultimaAtualizacao && (
-            <div style={{ textAlign: 'right' }}>
-              <p style={{ color: '#666', fontSize: '11px' }}>Última atualização:</p>
-              <p style={{ color: '#999', fontSize: '12px' }}>
-                {new Date(ultimaAtualizacao).toLocaleString('pt-BR')}
-              </p>
-            </div>
-          )}
-        </div>
+        <h1 style={{ fontSize: '32px', fontWeight: 'bold', marginBottom: '5px' }}>{jogador}</h1>
+        <p style={{ color: 'var(--text-secondary, #666)', fontSize: '14px' }}>Dashboard de Performance - Poker</p>
       </header>
 
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '20px', marginBottom: '30px' }}>
