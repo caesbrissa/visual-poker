@@ -76,19 +76,38 @@ export async function GET() {
     // Buscar totais da linha 3
     const headerResponse = await sheets.spreadsheets.values.get({
       spreadsheetId,
-      range: 'Sbrissa!A3:J3',
+      range: 'Sbrissa!A3:P3', // Expandir para pegar todas as colunas
     });
 
     const headerRow = headerResponse.data.values?.[0] || [];
     
-    // Extrair valores da linha 3:
-    // I3 = MakeUp Atual (índice 8)
-    // J3 = Profit/Loss (índice 9)
-    const makeupAtualHeader = processarNumero(headerRow[8]);
-    const profitLossHeader = processarNumero(headerRow[9]);
+    // Extrair TODOS os valores da linha 3:
+    // A3 = Nome/Sistema
+    // B3 = ID Sistema  
+    // C3 = Deal Player (40%)
+    // D3 = Total de Jogos (9863)
+    // E3 = Total de Presença Aula (259)
+    // F3 = Total de Rake (56.803,18)
+    // G3 = Rakeback Abaixo da Meta (25%)
+    // H3 = Rakeback Acima da Meta (35%)
+    // I3 = MakeUp Atual (-3.237,11)
+    // J3 = Profit/Loss (93.451,02)
+    
+    const dealPlayer = headerRow[2]?.toString().trim() || '0%'; // C3
+    const totalJogos = parseInt(headerRow[3]?.toString().replace(/\D/g, '')) || 0; // D3
+    const totalPresencaAula = parseInt(headerRow[4]?.toString().replace(/\D/g, '')) || 0; // E3
+    const totalRake = processarNumero(headerRow[5]); // F3
+    const rakebackAbaixoMeta = headerRow[6]?.toString().trim() || '25%'; // G3
+    const rakebackAcimaMeta = headerRow[7]?.toString().trim() || '35%'; // H3
+    const makeupAtualHeader = processarNumero(headerRow[8]); // I3
+    const profitLossHeader = processarNumero(headerRow[9]); // J3
 
-    console.log(`Valor I3: "${headerRow[8]}" → ${makeupAtualHeader}`);
-    console.log(`Valor J3: "${headerRow[9]}" → ${profitLossHeader}`);
+    console.log(`Deal Player (C3): ${dealPlayer}`);
+    console.log(`Total Jogos (D3): ${totalJogos}`);
+    console.log(`Presença Aula (E3): ${totalPresencaAula}`);
+    console.log(`Total Rake (F3): ${totalRake}`);
+    console.log(`Makeup Atual (I3): ${makeupAtualHeader}`);
+    console.log(`Profit/Loss (J3): ${profitLossHeader}`);
 
     // Buscar dados das sessões
     const response = await sheets.spreadsheets.values.get({
@@ -119,6 +138,8 @@ export async function GET() {
       const ganhosPerdas = processarNumero(row[2]); // Coluna C
       const jogos = parseInt(row[3]?.toString().replace(/\D/g, '')) || 0; // Coluna D
       const rake = processarNumero(row[5]); // Coluna F
+      const rakebackMeta = row[6]?.toString().trim() || ''; // Coluna G (vazio ou valor)
+      const rakebackAcima = row[7]?.toString().trim() || ''; // Coluna H (vazio ou valor)
       const saldoMakeup = processarNumero(row[8]); // Coluna I
 
       sessoes.push({
@@ -126,18 +147,31 @@ export async function GET() {
         Ganhos: ganhosPerdas,
         Jogos: jogos,
         Rake: rake,
+        RakebackAbaixo: rakebackMeta, // 25%
+        RakebackAcima: rakebackAcima, // 35%
         Saldo: saldoMakeup,
       });
     }
 
-    console.log(`${sessoes.length} sessões processadas`);
-    console.log(`Makeup Atual (I3): ${makeupAtualHeader}`);
-    console.log(`Profit/Loss (J3): ${profitLossHeader}`);
+    // Contar quantas vezes sacou cada tipo de rakeback
+    const countRakeback25 = sessoes.filter(s => s.RakebackAbaixo && s.RakebackAbaixo !== '').length;
+    const countRakeback35 = sessoes.filter(s => s.RakebackAcima && s.RakebackAcima !== '').length;
 
+    console.log(`${sessoes.length} sessões processadas`);
+    console.log(`Rakeback 25% sacado: ${countRakeback25} vezes`);
+    console.log(`Rakeback 35% sacado: ${countRakeback35} vezes`);
     const data = {
       jogador: "Carlos Sbrissa",
       makeupAtual: makeupAtualHeader,
       profitBruto: profitLossHeader,
+      totalRake: totalRake, // Valor correto da célula F3
+      totalJogos: totalJogos, // Valor correto da célula D3
+      presencaAula: totalPresencaAula, // Valor da célula E3
+      dealPlayer: dealPlayer, // Valor da célula C3
+      rakebackAbaixoMeta: rakebackAbaixoMeta, // 25%
+      rakebackAcimaMeta: rakebackAcimaMeta, // 35%
+      countRakeback25: countRakeback25, // Quantas vezes sacou 25%
+      countRakeback35: countRakeback35, // Quantas vezes sacou 35%
       sessoes,
       totalSessoes: sessoes.length,
       ultimaAtualizacao: new Date().toISOString(),

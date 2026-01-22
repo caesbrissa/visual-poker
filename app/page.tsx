@@ -15,6 +15,14 @@ interface DataFile {
   jogador: string;
   makeupAtual: number;
   profitBruto: number;
+  totalRake: number;
+  totalJogos: number;
+  presencaAula: number;
+  dealPlayer: string;
+  rakebackAbaixoMeta: string;
+  rakebackAcimaMeta: string;
+  countRakeback25: number;
+  countRakeback35: number;
   sessoes: Sessao[];
   ultimaAtualizacao?: string;
 }
@@ -72,10 +80,18 @@ export default function Dashboard() {
   }, []);
 
   // Garantir que sempre temos dados válidos (mesmo que vazios) para manter hooks consistentes
-  const { jogador, makeupAtual, profitBruto, sessoes, ultimaAtualizacao } = dataFile || {
+  const { jogador, makeupAtual, profitBruto, totalRake, totalJogos, presencaAula, dealPlayer, rakebackAbaixoMeta, rakebackAcimaMeta, countRakeback25, countRakeback35, sessoes, ultimaAtualizacao } = dataFile || {
     jogador: "Jogador",
     makeupAtual: 0,
     profitBruto: 0,
+    totalRake: 0,
+    totalJogos: 0,
+    presencaAula: 0,
+    dealPlayer: "0%",
+    rakebackAbaixoMeta: "25%",
+    rakebackAcimaMeta: "35%",
+    countRakeback25: 0,
+    countRakeback35: 0,
     sessoes: [],
     ultimaAtualizacao: new Date().toISOString()
   };
@@ -101,43 +117,57 @@ export default function Dashboard() {
   const sessoesFiltradas = useMemo(() => filtrarPorPeriodo(sessoes, periodoGrafico), [sessoes, periodoGrafico]);
   const sessoesTabela = useMemo(() => filtrarPorPeriodo(sessoes, periodoTabela), [sessoes, periodoTabela]);
 
-  // Usar profitBruto da célula J3 ao invés de calcular
-  const totalGanhos = profitBruto;
-  const totalJogos = sessoes.reduce((acc, curr) => acc + curr.Jogos, 0);
-  const totalRake = sessoes.reduce((acc, curr) => acc + curr.Rake, 0);
-  const saldoFinal = makeupAtual; // Já vem da célula I3
+  // Usar valores corretos da planilha (célula da linha 3)
+  const totalGanhos = profitBruto; // J3
+  const totalJogosReal = totalJogos; // D3 - valor correto da planilha
+  const totalRakeReal = totalRake; // F3 - valor correto da planilha
+  const saldoFinal = makeupAtual; // I3
+  
   const sessoesPositivas = sessoes.filter(s => s.Ganhos > 0).length;
   const sessoesNegativas = sessoes.filter(s => s.Ganhos < 0).length;
   const winRate = sessoes.length > 0 ? (sessoesPositivas / sessoes.length * 100) : 0;
-  const mediaPorJogo = totalJogos > 0 ? totalGanhos / totalJogos : 0;
+  
+  // Média por jogo: Profit Bruto / Total de Jogos
+  const mediaPorJogo = totalJogosReal > 0 ? totalGanhos / totalJogosReal : 0;
+  
+  // Média por sessão: Profit Bruto / Total de Sessões
   const mediaPorSessao = sessoes.length > 0 ? totalGanhos / sessoes.length : 0;
+  
   const maiorGanho = Math.max(...sessoes.map(s => s.Ganhos), 0);
   const maiorPerda = Math.min(...sessoes.map(s => s.Ganhos), 0);
-  const rakeBack = totalRake * 0.25;
   
-  // ROI correto do poker: (Lucro Total / Investimento Total) × 100
-  // Onde Investimento Total = Total de Rake (buy-ins)
-  // e Lucro Total = Profit Bruto
-  const roi = totalRake > 0 ? (totalGanhos / totalRake) * 100 : 0;
+  // Rakeback = 25% do rake total
+  const rakeBack = totalRakeReal * 0.25;
+  
+  // ROI correto do poker: (Profit / Rake) × 100
+  // Representa quanto você ganhou em relação ao que pagou de rake
+  const roi = totalRakeReal > 0 ? (totalGanhos / totalRakeReal) * 100 : 0;
+  
+  // Dias jogados = contar datas únicas nas sessões
+  const diasJogados = new Set(sessoes.map(s => s.Data)).size;
 
   const calcularStreak = () => {
-    if (sessoes.length === 0) return { tipo: 'neutro', valor: 0 };
-    let streak = 0;
+    if (sessoes.length === 0) return { tipo: 'neutro', valor: 0, texto: 'Sem dados' };
+    
+    // Pegar últimas 7 sessões (ou menos se não tiver 7)
+    const ultimas7 = sessoes.slice(-7);
+    const positivas = ultimas7.filter(s => s.Ganhos > 0).length;
+    const negativas = ultimas7.filter(s => s.Ganhos < 0).length;
+    
     let tipo: 'neutro' | 'positivo' | 'negativo' = 'neutro';
-    for (let i = sessoes.length - 1; i >= 0; i--) {
-      if (sessoes[i].Ganhos > 0) {
-        if (tipo === 'neutro') tipo = 'positivo';
-        if (tipo === 'positivo') streak++;
-        else break;
-      } else if (sessoes[i].Ganhos < 0) {
-        if (tipo === 'neutro') tipo = 'negativo';
-        if (tipo === 'negativo') streak++;
-        else break;
-      } else {
-        break;
-      }
+    let texto = '';
+    
+    if (positivas > negativas) {
+      tipo = 'positivo';
+      texto = `${positivas}W-${negativas}L`;
+    } else if (negativas > positivas) {
+      tipo = 'negativo';
+      texto = `${positivas}W-${negativas}L`;
+    } else {
+      texto = `${positivas}W-${negativas}L`;
     }
-    return { tipo, valor: streak };
+    
+    return { tipo, valor: positivas - negativas, texto };
   };
 
   const streak = calcularStreak();
@@ -156,8 +186,6 @@ export default function Dashboard() {
     });
     return melhor;
   }, [sessoes]);
-
-  const diasJogados = sessoes.filter(s => s.Jogos > 0).length;
 
   const dadosROI = useMemo(() => {
     let rakeAcumulado = 0;
@@ -342,8 +370,8 @@ export default function Dashboard() {
 
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '20px', marginBottom: '30px' }}>
         <Card title="Profit Bruto" value={fM(totalGanhos)} color={totalGanhos >= 0 ? "#10b981" : "#ef4444"} />
-        <Card title="Volume Total" value={`${totalJogos.toLocaleString('pt-BR')} Jogos`} color="#f59e0b" />
-        <Card title="Rake Total" value={fM(totalRake)} color="#3b82f6" />
+        <Card title="Volume Total" value={`${totalJogosReal.toLocaleString('pt-BR')} Jogos`} color="#f59e0b" />
+        <Card title="Rake Total" value={fM(totalRakeReal)} color="#3b82f6" />
         <Card title="Makeup Atual" value={fM(saldoFinal)} color={saldoFinal < 0 ? "#ef4444" : "#10b981"} />
       </div>
 
@@ -351,13 +379,17 @@ export default function Dashboard() {
         <MiniCard title="Win Rate" value={`${winRate.toFixed(1)}%`} color="#8b5cf6" />
         <MiniCard title="Média/Jogo" value={fM(mediaPorJogo)} color="#ec4899" />
         <MiniCard title="Média/Sessão" value={fM(mediaPorSessao)} color="#06b6d4" />
-        <MiniCard title="Rake Back" value={fM(rakeBack)} color="#84cc16" />
+        <MiniCard title="Rake Back 25%" value={fM(rakeBack)} color="#84cc16" subtitle={`${totalRakeReal > 0 ? '25% do Rake' : ''}`} />
+        <MiniCard title="Presença Aulas" value={presencaAula.toString()} color="#f97316" subtitle="Total de aulas" />
+        <MiniCard title="Deal Player" value={dealPlayer} color="#06b6d4" subtitle="Porcentagem" />
         <MiniCard title="Maior Ganho" value={fM(maiorGanho)} color="#10b981" />
         <MiniCard title="Maior Perda" value={fM(maiorPerda)} color="#ef4444" />
-        <MiniCard title="ROI" value={`${roi.toFixed(1)}%`} color={roi >= 0 ? "#10b981" : "#ef4444"} subtitle="Lucro/Investimento" />
-        <MiniCard title="Sequência Atual" value={streak.tipo === 'positivo' ? `+${streak.valor}` : streak.tipo === 'negativo' ? `-${streak.valor}` : '0'} color={streak.tipo === 'positivo' ? "#10b981" : streak.tipo === 'negativo' ? "#ef4444" : "#666"} subtitle={streak.tipo === 'positivo' ? 'Wins seguidos' : streak.tipo === 'negativo' ? 'Losses seguidos' : 'Neutro'} />
+        <MiniCard title="ROI" value={`${roi.toFixed(1)}%`} color={roi >= 0 ? "#10b981" : "#ef4444"} subtitle="Lucro/Rake" />
+        <MiniCard title="Últimas 7 Sessões" value={streak.texto} color={streak.tipo === 'positivo' ? "#10b981" : streak.tipo === 'negativo' ? "#ef4444" : "#666"} subtitle={streak.tipo === 'positivo' ? 'Tendência positiva' : streak.tipo === 'negativo' ? 'Tendência negativa' : 'Equilibrado'} />
+        <MiniCard title="Rakeback 25%" value={`${countRakeback25}x`} color="#eab308" subtitle="Vezes sacado" />
+        <MiniCard title="Rakeback 35%" value={`${countRakeback35}x`} color="#f59e0b" subtitle="Vezes sacado" />
         <MiniCard title="Melhor Mês" value={fM(melhorMes.valor)} color="#eab308" subtitle={melhorMes.mes} />
-        <MiniCard title="Dias Jogados" value={diasJogados.toString()} color="#3b82f6" subtitle="Sessões ativas" />
+        <MiniCard title="Dias Jogados" value={diasJogados.toString()} color="#3b82f6" subtitle="Dias únicos" />
       </div>
 
       <div style={{ background: 'var(--bg-card, #0a0a0a)', padding: '25px', borderRadius: '20px', border: '1px solid var(--border-color, #1a1a1a)', marginBottom: '30px', transition: 'all 0.3s ease' }}>
