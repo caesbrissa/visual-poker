@@ -175,8 +175,18 @@ export default function Dashboard() {
   
   const variancia = analisarVariancia();
   
+  interface DadosMes {
+    mes: string;
+    profit: number;
+    jogos: number;
+    rake: number;
+    sessoes: number;
+    winRate: number;
+    sessoesPositivas: number;
+  }
+
   const compararMeses = useMemo(() => {
-    const mesesData: any = {};
+    const mesesData: { [key: string]: DadosMes } = {};
     
     sessoes.forEach(s => {
       const [dia, mes, ano] = s.Data.split('/');
@@ -206,12 +216,19 @@ export default function Dashboard() {
       data.winRate = data.sessoes > 0 ? (data.sessoesPositivas / data.sessoes) * 100 : 0;
     });
     
-    const mesesArray = Object.values(mesesData).slice(-6);
+    const mesesArray: DadosMes[] = Object.values(mesesData).slice(-6);
     return mesesArray;
   }, [sessoes]);
   
-  const gerarAlerts = () => {
-    const alerts: any[] = [];
+  interface AlertData {
+    tipo: string;
+    titulo: string;
+    mensagem: string;
+    cor: string;
+  }
+
+  const gerarAlerts = (): AlertData[] => {
+    const alerts: AlertData[] = [];
     
     const ultimas5 = sessoes.slice(-5);
     const todasNegativas = ultimas5.every(s => s.Ganhos < 0);
@@ -290,8 +307,12 @@ export default function Dashboard() {
 
   const streak = calcularStreak();
 
+  interface MesesMap {
+    [key: string]: number;
+  }
+
   const melhorMes = useMemo(() => {
-    const meses: any = {};
+    const meses: MesesMap = {};
     sessoes.forEach(s => {
       const [dia, mes, ano] = s.Data.split('/');
       const chave = `${mes}/${ano}`;
@@ -300,7 +321,7 @@ export default function Dashboard() {
     });
     let melhor = { mes: '-', valor: 0 };
     Object.entries(meses).forEach(([mes, valor]) => {
-      if ((valor as number) > melhor.valor) melhor = { mes, valor: valor as number };
+      if (valor > melhor.valor) melhor = { mes, valor };
     });
     return melhor;
   }, [sessoes]);
@@ -343,8 +364,15 @@ export default function Dashboard() {
     { name: 'Sessões Negativas', value: sessoesNegativas, color: '#ef4444' }
   ];
 
+  interface GanhosPorMes {
+    mes: string;
+    ganhos: number;
+    jogos: number;
+    rake: number;
+  }
+
   const ganhosPorMes = useMemo(() => {
-    const meses: any = {};
+    const meses: { [key: string]: GanhosPorMes } = {};
     sessoes.forEach(s => {
       const [dia, mes, ano] = s.Data.split('/');
       const chave = `${mes}/${ano}`;
@@ -886,8 +914,8 @@ export default function Dashboard() {
               </tr>
             </thead>
             <tbody>
-              {compararMeses.map((mes: any, idx: number) => {
-                const mesAnterior = idx > 0 ? compararMeses[idx - 1] : null;
+              {compararMeses.map((mes: DadosMes, idx: number) => {
+                const mesAnterior: DadosMes | null = idx > 0 ? compararMeses[idx - 1] : null;
                 const variacao = mesAnterior ? ((mes.profit - mesAnterior.profit) / Math.abs(mesAnterior.profit)) * 100 : 0;
                 
                 return (
@@ -924,8 +952,8 @@ export default function Dashboard() {
             <div style={{ fontSize: '14px', color: '#fff' }}>
               {(() => {
                 const mesAtualIdx = compararMeses.length - 1;
-                const mesAtualData = compararMeses[mesAtualIdx];
-                const mesAnteriorData = compararMeses[mesAtualIdx - 1];
+                const mesAtualData: DadosMes = compararMeses[mesAtualIdx];
+                const mesAnteriorData: DadosMes = compararMeses[mesAtualIdx - 1];
                 const melhoria = mesAtualData.profit > mesAnteriorData.profit;
                 const diferenca = ((mesAtualData.profit - mesAnteriorData.profit) / Math.abs(mesAnteriorData.profit)) * 100;
                 
